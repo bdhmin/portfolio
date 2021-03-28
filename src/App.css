@@ -14,20 +14,26 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background gradient */
+  background-color: rgb(255,254,247);
+  background-image: linear-gradient(rgb(211,213,230), rgb(255,254,247));
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(100, 100, 100);
+
+  font-family: Kiona;
 }
 
 .App-link {
-  color: #61dafb;
+  color: rgb(44, 51, 114);
 }
 
+/*
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +42,4 @@
     transform: rotate(360deg);
   }
 }
+*/
