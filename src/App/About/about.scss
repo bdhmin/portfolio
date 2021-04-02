@@ -1,4 +1,56 @@
-
 .About {
-  font-family: 'Hero New';
+  // TEMPORARY BORDER
+  // border: solid 1px gold;
+
+  width: 70vw;
+  
+  .Content {
+    display: flex;
+    align-items: start;
+  }
+  
+  .Portrait {
+    // TEMPORARY BORDER
+    // border: solid 1px olive;
+    
+  
+    display: flex;
+    align-items: start;
+    .PortraitImage {
+      
+      width: 18vw;
+      height: 36vw;
+      object-fit:cover;
+    }
+    
+    .PortraitBlocks {
+      margin-left: 0.9683666881859264vw; // 15px
+      width: 0.9683666881859264vw; // 15px
+    
+      // margin-left: 1.5151515151515151vw; // 20px
+      // width: 1.5151515151515151vw; // 20px
+      
+    }
+  }
+  
+  .Bio {
+    padding-left: 4.545454545454546vw; // 60px
+
+    .Intro {
+      font-size: 2; // less than 32px
+      font-weight: 600;
+    }
+
+    .MainBody {
+      padding-top: 1vw;
+
+      p {
+        font-size: 1.3vw; // less than 22px
+        line-height: 1.5em;
+      }
+    }
+
+
+  }
 }
+

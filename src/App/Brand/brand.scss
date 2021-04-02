@@ -1,4 +1,23 @@
-p {
-  font-size: 64px;
+.Brand {
+  // TEMPORARY BORDER
+  // border: solid 1px green;
+
+  display: flex;
+  align-items: start;
+}
+
+.Name {
+  font-size: 1.7751479289940828vw; // 30px
+  font-size: 2.013845185651353vw; // 32px
   font-weight: bold;
+
+  // Unselectable text
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none;
+}
+
+.BrandBlocks {
+  margin-left: 0.6161429451632778vw; // 10px
+  width: 0.6161429451632778vw; // 10px
 }
