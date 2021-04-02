@@ -1,0 +1,13 @@
+
+#nav {
+  border: 1px solid pink;
+  width: 50vw;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  list-style: none;
+}
+
+#nav li {
+  font-weight: 500;
+}
