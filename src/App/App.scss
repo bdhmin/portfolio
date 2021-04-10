@@ -4,11 +4,11 @@
   
   background-color: white;
 
-  min-height: 100vh;
+  //min-height: 100vh;
   display: flex;
   align-items: start;
   justify-content: center;
-  margin-top: 9vw;
+  margin-top: 130px;
 
   font-size: calc(10px + 2vmin);
   color: #1D1D1D;
@@ -39,9 +39,25 @@ a:hover, a:visited, a:link, a:active {
   }
 }
 
+// Text Styling
 
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
 
+h2 {
+  font-size: 28px; // less than 32px
+  font-weight: 600;
+  margin: 0 0 0.4em 0;
+}
 
+p {
+  font-weight: 400;
+  // font-size: 1.3vw;
+  font-size: 18px;
+  line-height: 1.5em;
+}
 
 
 /*

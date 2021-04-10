@@ -2,55 +2,45 @@
   // TEMPORARY BORDER
   // border: solid 1px gold;
 
-  width: 70vw;
-  
+  width: 960px;
+
   .Content {
-    display: flex;
-    align-items: start;
-  }
-  
-  .Portrait {
-    // TEMPORARY BORDER
-    // border: solid 1px olive;
-    
-  
-    display: flex;
-    align-items: start;
-    .PortraitImage {
-      
-      width: 18vw;
-      height: 36vw;
-      object-fit:cover;
-    }
-    
-    .PortraitBlocks {
-      margin-left: 0.9683666881859264vw; // 15px
-      width: 0.9683666881859264vw; // 15px
-    
-      // margin-left: 1.5151515151515151vw; // 20px
-      // width: 1.5151515151515151vw; // 20px
-      
-    }
-  }
-  
-  .Bio {
-    padding-left: 4.545454545454546vw; // 60px
+    height: 722px;
+    position: relative;
+    margin-bottom: 140px;
 
-    .Intro {
-      font-size: 2; // less than 32px
-      font-weight: 600;
-    }
-
-    .MainBody {
-      padding-top: 1vw;
-
-      p {
-        font-size: 1.3vw; // less than 22px
-        line-height: 1.5em;
+    .Portrait {
+      // TEMPORARY BORDER
+      // border: solid 1px olive;
+      position: absolute;
+      left: 0;
+      top: 20px;
+  
+      .PortraitImage {
+        // TEMPORARY BORDER
+        // border: solid 1px brown;
+        
+        width: 513px;
+        height: 722px;
+        overflow: hidden;
+      }
+      .PortraitImage img {
+        width: 513px;
+        height: auto;
+        margin: -15px 0 0 0;
       }
     }
-
-
+  
+    .Bio {
+      width: 512px;
+      position: absolute;
+      margin-top: 72px;
+      right: 0;
+    }
   }
-}
 
+
+
+
+
+}

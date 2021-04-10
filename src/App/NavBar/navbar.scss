@@ -3,8 +3,7 @@
   // TEMPORARY BORDER
   // border: solid 1px lime;
   
-  width: 80vw;
-  height: 7vw;
+  width: 960px;
   display: flex;
   align-items: center ;
   justify-content: space-between;
@@ -15,15 +14,15 @@
 
 #nav {
   // border: 1px solid pink;
-  width: 28.34467120181406vw; // 500px
+  width: 300px;
   display: flex;
   justify-content: space-between;
-  padding: 0.6161429451632778vw; // 10px
+  padding: 10px;
   list-style: none;
 }
 
 #nav li {
-  font-size: 1vw; // less than 18px
+  font-size: 16px; // less than 18px
   font-weight: 500;
 }
 

@@ -1,8 +1,9 @@
 import './App.scss';
 import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
 import NavBar from './NavBar/navbar';
+import Home from './Home/home';
 import About from './About/about';
-import Projects from './Projects/projects';
+import ProjectsPage from './Projects/projectsPage';
 import Art from './Art/art';
 
 function App() {
@@ -12,11 +13,9 @@ function App() {
         <NavBar />
         
         <Switch>
-          <Route exact path="/">
-            <Redirect to="/About" />
-          </Route>
+          <Route exact path="/" component={Home}/>
           <Route exact path="/About" component={About}/>
-          <Route exact path="/Projects" component={Projects}/>
+          <Route exact path="/Projects" component={ProjectsPage}/>
           <Route exact path="/Art" component={Art}/>
         </Switch>
       </Router>

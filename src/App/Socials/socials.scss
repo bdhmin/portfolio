@@ -1,0 +1,66 @@
+
+.Socials {
+  // TEMPORARY BORDER
+  // border: solid 1px green;
+  
+  float: right;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  // THIS SHOULD BE REPLACED WITH SOMETHIGN THAT WILL PUSH LOGOS DOWN
+  position: absolute;
+  //bottom: 0;
+  margin-top: 30px;
+  right: 0;
+  line-height: 0;
+
+  .Email {
+    // TEMPORARY BORDER
+    // border: solid 1px red;
+    
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+  }
+  
+
+}
+
+  .Linkedin {
+    // TEMPORARY BORDER
+    // border: solid 1px red;
+    
+    width: 25px;
+    height: auto;
+    cursor: pointer;
+
+    vertical-align: bottom;
+
+  }
+  .Instagram {
+    // TEMPORARY BORDER
+    // border: solid 1px red;
+    
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+
+  }
+  .VSCO {
+    // TEMPORARY BORDER
+    // border: solid 1px red;
+    
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+  }
+  .Youtube {
+    // TEMPORARY BORDER
+    // border: solid 1px red;
+    
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+  }
