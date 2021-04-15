@@ -1,5 +1,5 @@
 import './about.scss';
-import SelfPortrait from '../../assets/SelfPortrait.jpg';
+import SelfPortrait from '../../assets/About/SelfPortrait.jpg';
 
 function About() {
   return (

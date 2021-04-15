@@ -1,0 +1,49 @@
+.Home {
+  // TEMPORARY BORDER
+  // border: solid 1px purple;
+  
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.Intro {
+  margin-left: auto;
+  margin-right: auto;
+  
+  width: 960px;
+  height: 100vh;
+  position: relative;
+  .Greeting {
+    // TEMPORARY BORDER
+    // border: solid 1px blue;
+    
+    top: 50px;
+    position: absolute;
+    height: fit-content;
+    width: 453px;
+
+    b {
+      font-weight: 600;
+    }
+  }
+
+  .Sunglasses {
+    position: absolute;
+    right: 0;
+    width: 749px;
+    height: 450px;
+    overflow: hidden;
+  }
+
+  .Sunglasses img {
+    transform: scaleX(-1);
+    width: 828px;
+    height: auto;
+    margin: -100px 0 0 0;
+  }
+
+
+}
