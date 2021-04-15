@@ -20,10 +20,10 @@
     // TEMPORARY BORDER
     // border: solid 1px blue;
     
-    top: 50px;
+    top: 20vh;
     position: absolute;
     height: fit-content;
-    width: 453px;
+    width: 570px;
 
     b {
       font-weight: 600;
@@ -32,9 +32,10 @@
 
   .Sunglasses {
     position: absolute;
+    top: 10vh;
     right: 0;
     width: 749px;
-    height: 450px;
+    height: auto;
     overflow: hidden;
   }
 
@@ -42,7 +43,7 @@
     transform: scaleX(-1);
     width: 828px;
     height: auto;
-    margin: -100px 0 0 0;
+    margin: 0 0 0 0;
   }
 
 
