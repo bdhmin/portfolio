@@ -9,7 +9,7 @@ function NavBar() {
       <ul id="nav">
         <li><a href="/About">About</a></li>
         <li><a href="/Projects">Projects</a></li>
-        <li><a href="/Art">Art</a></li>
+        <li><a href="/Photography">Photography</a></li>
       </ul>
     </div>
 
