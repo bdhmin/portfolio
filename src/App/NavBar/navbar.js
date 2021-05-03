@@ -1,4 +1,5 @@
 import './navbar.scss';
+import { Link } from 'react-router-dom';
 import Brand from '../Brand/brand'
 
 function NavBar() {
@@ -7,9 +8,15 @@ function NavBar() {
       <Brand />
 
       <ul id="nav">
-        <li><a href="/About">About</a></li>
-        <li><a href="/Projects">Projects</a></li>
-        <li><a href="/Photography">Photography</a></li>
+        <Link to="/About">
+          <li>About</li>
+        </Link>
+        <Link to="/Projects">
+          <li>Projects</li>
+        </Link>
+        <Link to="Photography">
+          <li>Photography</li>
+        </Link>
       </ul>
     </div>
 

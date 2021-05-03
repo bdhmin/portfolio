@@ -1,11 +1,12 @@
 import './brand.scss';
+import { Link } from 'react-router-dom';
 
 function Brand() {
   return (
     <div className="Brand">
-      <a href="/">
+      <Link to="/">
         <div className="Name">Bryan Min</div>
-      </a>
+      </Link>
     </div>
   )
 }
