@@ -9,7 +9,7 @@ function H2UTechnologiesPreview() {
         <div className="Text">
           <div className="Date">August 2020</div>
           <div className="Title">H2U Technologies Website</div>
-          <div className="Subtitle">A design that empowers that values of clean energy through its colors and lines.</div>
+          <div className="Subtitle">A design that empowers values of clean energy through its lines and colors.</div>
         </div>
 
         {/* H2U Technologies */}

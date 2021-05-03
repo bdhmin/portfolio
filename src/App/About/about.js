@@ -25,7 +25,16 @@ function About() {
             Through the discovery of my artistic identity, I also grew passionate for building tools through code that can benefit me and my peers.
           </p>
 
+          <div className="Socials">
+            <div className="Links">
+              <a href="https://www.linkedin.com/in/bryan-min-72108a19b/" target="_blank" ><p>LinkedIn</p></a>
+              <a href="https://github.com/bdmin00" target="_blank"><p>GitHub</p></a>
+              <a href="https://vsco.co/bryanmin/gallery" target="_blank"><p>VSCO</p></a>
+              <a href="mailto: bryandhmin@gmail.com"><p>Email</p></a>
+            </div>
+          </div>
         </div>
+
 
       </div>
 

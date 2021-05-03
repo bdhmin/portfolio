@@ -9,7 +9,7 @@ function ProjectsPage() {
         <h1><i>Projects</i></h1>
 
         {/* Update eventually */}
-        <div class="ProjectType">
+        {/* <div class="ProjectType">
           All
               •   
           UI/UX Design
@@ -17,7 +17,7 @@ function ProjectsPage() {
           Computer Science
               •   
           Engineering
-        </div>
+        </div> */}
       </div>
 
       <Projects />
