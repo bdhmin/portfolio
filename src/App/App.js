@@ -14,11 +14,11 @@ function App() {
         <NavBar />
         
         <Switch>
-          <Route exact path="/" component={Home}/>
-          <Route exact path="/About" component={About}/>
-          <Route exact path="/Projects" component={ProjectsPage}/>
-          <Route exact path="/Projects/H2UTechnologies" component={H2UTechnologies}/>
-          <Route exact path="/Photography" component={Photography}/>
+          <Route path="/" component={Home}/>
+          <Route path="/About" component={About}/>
+          <Route path="/Projects" component={ProjectsPage}/>
+          <Route path="/Projects/H2UTechnologies" component={H2UTechnologies}/>
+          <Route path="/Photography" component={Photography}/>
         </Switch>
       </Router>
     </div>
