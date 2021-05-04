@@ -4,7 +4,7 @@ import H2UAbout from '../../../assets/H2U/About.png';
 
 function H2UTechnologiesPreview() {
   return (
-    <div className="H2UTechnologiesPreview">
+    <a className="H2UTechnologiesPreview" href="https://www.h2utechnologies.com"  target="_blank" rel="noreferrer">
       <div className="Content">
         <div className="Text">
           <div className="Date">August 2020</div>
@@ -25,7 +25,7 @@ function H2UTechnologiesPreview() {
         </div>
       </div>
       <div className="Types">UI/UX Design</div>
-    </div>
+    </a>
   )
 }
 

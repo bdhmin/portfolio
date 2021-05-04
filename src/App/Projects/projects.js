@@ -5,7 +5,7 @@ function Projects() {
   return (
     <div className="Projects">
       {/* Soon: href="/Projects/H2UTechnologies" */}
-      <a href="https://www.h2utechnologies.com" target="_blank" rel="noreferrer"><H2UTechnologiesPreview /></a>
+      <H2UTechnologiesPreview />
     </div>
 
   )
