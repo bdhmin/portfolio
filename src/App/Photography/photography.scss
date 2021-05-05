@@ -2,7 +2,8 @@
 .Photos {
   display: flex;
   flex-wrap: wrap;
-  grid-gap: 2vw;
+  justify-content: space-between;
+  align-content: space-between;
   width: 91vw;
   margin-top: 80px;
   padding-bottom: 100px;
@@ -24,6 +25,7 @@
   width: 29vw;
   height: 40vw;
   overflow: hidden;
+  margin-bottom: 2vw;
 }
 
 .portrait img {
@@ -37,6 +39,7 @@
   width: 60vw; // 29*2 + 2
   height: 40vw;
   overflow: hidden;
+  margin-bottom: 2vw;
 }
 
 .landscape img {
