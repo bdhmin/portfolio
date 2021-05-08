@@ -1,14 +1,18 @@
 // Bigger Style
-.Bar {
+.NavBar {
   // TEMPORARY BORDER
   // border: solid 1px lime;
-  
-  width: 960px;
-  display: flex;
-  align-items: center ;
-  justify-content: space-between;
+
   position: absolute;
   top: 0;
+  margin: 0 60px;
+  width: 960px;
+
+  .Bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
 }
 
@@ -24,6 +28,20 @@
 #nav li {
   font-size: 16px; // less than 18px
   font-weight: 500;
+}
+
+@media screen and (max-width: 1080px) {
+  .NavBar {
+    width: 100vw;
+    .Bar {
+      // TEMPORARY BORDER
+      // border: solid 1px blue;
+      
+      display: flex;
+      margin: 0 60px;
+    }
+  }
+  
 }
 
 

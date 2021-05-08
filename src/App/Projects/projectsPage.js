@@ -5,8 +5,11 @@ function ProjectsPage() {
   return (
     <div className="ProjectsPage">
       
-      <div className="ProjectsHeader">
-        <h1><i>Projects</i></h1>
+      <div className="Header">
+        <div className="Text">
+          <h1><i>Things I've Made</i></h1>
+        </div>
+        {/* <p></p> */}
 
         {/* Update eventually */}
         {/* <div class="ProjectType">

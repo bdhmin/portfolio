@@ -1,12 +1,30 @@
-
+.Photography {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // margin-top: 50px;
+  .Header {
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .Text {
+      // width: 100vw;
+    }
+  }
+}
 .Photos {
+  // TEMPORARY BORDER
+  // border: solid 1px red;
+  
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
-  align-content: space-between;
   width: 91vw;
-  margin-top: 80px;
-  padding-bottom: 100px;
+  margin: 100px 60px 0px;
+  padding-bottom: 80px;
 }
 
 .Photos img {
@@ -64,6 +82,17 @@
   }
   .RedMotorcycles {
     margin-left: -1.8vw;
+  }  
+}
+
+@media screen and (max-width: 1080px) {
+  .Photography {
+    .Header {
+      width: 100vw;
+      .Text {
+        margin-left: 60px;
+        margin-right: 60px;
+      }
+    }
   }
-  
 }
