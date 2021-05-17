@@ -2,18 +2,20 @@
   // TEMPORARY BORDER
   // border: 2px solid salmon;
   
-  background-color: white;
 
   //min-height: 100vh;
   display: flex;
   align-items: start;
   justify-content: center;
-  margin-top: 130px;
 
   font-size: calc(10px + 2vmin);
   color: #1D1D1D;
-  font-family: 'hero-new', sans-serif;
+  font-family: 'pt-sans-pro', sans-serif;
+
+  
 }
+
+
 
 .App-logo {
   height: 40vmin;
@@ -30,24 +32,25 @@ a:hover, a:visited, a:link, a:active {
 }
 
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    // This makes the logo spin
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+// @media (prefers-reduced-motion: no-preference) {
+//   .App-logo {
+//     // This makes the logo spin
+//     animation: App-logo-spin infinite 20s linear;
+//   }
+// }
 
 // Text Styling
 
 h1 {
-  font-size: 48px;
-  font-weight: 700;
-
-  line-height: 1em;
+  font-family: 'lemonde-journal', serif;
+  font-size: 128px;
+  font-weight: 600;
 }
 
+
 h2 {
-  font-size: 28px; // less than 32px
+  font-family: 'lemonde-journal', serif;
+  font-size: 78px; // less than 32px
   font-weight: 600;
   margin: 0 0 0.4em 0;
 }

@@ -10,17 +10,17 @@ import Photography from './Photography/photography';
 function App() {
   return (
     <div className="App">
-      <Router>
-        <NavBar />
-        
-        <Switch>
-          <Route exact path="/" component={Home}/>
-          <Route path="/about" component={About}/>
-          <Route path="/projects" component={ProjectsPage}/>
-          {/* <Route path="/Projects/H2UTechnologies" component={H2UTechnologies}/> */}
-          <Route path="/photography" component={Photography}/>
-        </Switch>
-      </Router>
+        <Router>
+          <NavBar />
+          
+          <Switch>
+            <Route exact path="/" component={Home}/>
+            {/* <Route path="/about" component={About}/> */}
+            <Route path="/projects" component={ProjectsPage}/>
+            {/* <Route path="/Projects/H2UTechnologies" component={H2UTechnologies}/> */}
+            <Route path="/photography" component={Photography}/>
+          </Switch>
+        </Router>
     </div>
   );
 }

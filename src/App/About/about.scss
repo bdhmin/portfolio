@@ -1,60 +1,61 @@
 .About {
   // TEMPORARY BORDER
   // border: solid 1px gold;
+  // background-color: white;
+  margin-top: 30px;
 
   width: 960px;
 
   .Content {
     height: 722px;
-    position: relative;
+    // position: relative;
     margin-bottom: 140px;
 
-    .Portrait {
-      // TEMPORARY BORDER
-      // border: solid 1px olive;
-      position: absolute;
-      left: 0;
-      top: 20px;
+    // .Portrait {
+    //   // TEMPORARY BORDER
+    //   // border: solid 1px olive;
+    //   position: absolute;
+    //   left: 0;
+    //   top: 20px;
   
-      .PortraitImage {
-        // TEMPORARY BORDER
-        // border: solid 1px brown;
+    //   .PortraitImage {
+    //     // TEMPORARY BORDER
+    //     // border: solid 1px brown;
         
-        width: 513px;
-        height: 722px;
-        overflow: hidden;
-      }
-      .PortraitImage img {
-        width: 513px;
-        height: auto;
-        margin: -15px 0 0 0;
-      }
-    }
+    //     width: 513px;
+    //     height: 722px;
+    //     overflow: hidden;
+    //   }
+    //   .PortraitImage img {
+    //     width: 513px;
+    //     height: auto;
+    //     margin: -15px 0 0 0;
+    //   }
+    // }
   
     .Bio {
-      width: 512px;
-      position: absolute;
+      width: 532px;
+      // position: absolute;
       margin-top: 72px;
-      right: 0;
-
-      
-      .Socials {
-        // TEMPORARY BORDER
-        // border: solid 1px red;
-        border-left: solid 1px black;
-        position: inherit;
-        margin-top: 60px;
-        right: 40%;
-        .Links {
-          padding-left: 30px;
-          text-align: start;
-          font-style: italic;
-          p {
-            line-height: 1.5em;
-          }
+      // right: 0;
+    } 
+    .Socials {
+      // TEMPORARY BORDER
+      width: 100px;
+      // border: solid 1px red;
+      border-left: solid 1px black;
+      margin-top: 100px;
+      margin-left: 100px;
+      .Links {
+        padding-left: 30px;
+        text-align: start;
+        font-style: italic;
+        p {
+          font-weight: 600;
+          line-height: 1.5em;
         }
       }
-    } 
+    }
   }
 }
 

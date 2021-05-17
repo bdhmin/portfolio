@@ -7,44 +7,50 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  // margin-top: 40vh;
+
   
 }
 
 .Intro {
-  margin-left: auto;
-  margin-right: auto;
-  width: 960px;
+  // TEMPORARY BORDER
+  // border: solid 1px red;
+
+  width: 100vw;
   height: 100vh;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // justify-content: center;
+
+  // background: -webkit-linear-gradient(110deg, #FAFAFA 60%, #ffffff 60%);
+  // background: -o-linear-gradient(110deg, #FAFAFA 60%, #ffffff 60%);
+  // background: -moz-linear-gradient(110deg, #FAFAFA 60%, #ffffff 60%);
+  background: linear-gradient(167deg, #FAFAFA 70%, #ffffff 60%);
+
+  // background-position: 0 20vh;
+
+  .Name {
+    font-family: 'lemonde-journal', serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 128px;
+    margin-top: 30vh;
+  }
   
   .Greeting {
     // TEMPORARY BORDER
     // border: solid 1px blue;
     
+    margin-top: 30px;
     top: 20vh;
-    position: absolute;
     height: fit-content;
-    width: 570px;
+    width: 615px;
+    word-spacing: 1.6px;
 
     b {
-      font-weight: 600;
+      font-weight: 700;
     }
-  }
-
-  .Sunglasses {
-    position: absolute;
-    top: 10vh;
-    right: 0;
-    width: 749px;
-    height: auto;
-    overflow: hidden;
-  }
-
-  .Sunglasses img {
-    transform: scaleX(-1);
-    width: 828px;
-    height: auto;
-    margin: 0 0 0 0;
   }
 
 
