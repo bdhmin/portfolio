@@ -1,64 +1,142 @@
 .About {
   // TEMPORARY BORDER
   // border: solid 1px gold;
-  // background-color: white;
-  margin-top: 30px;
 
-  width: 960px;
+  .AboutBox {
 
-  .Content {
-    height: 722px;
-    // position: relative;
+    width: 960px;
     margin-bottom: 140px;
-
-    // .Portrait {
-    //   // TEMPORARY BORDER
-    //   // border: solid 1px olive;
-    //   position: absolute;
-    //   left: 0;
-    //   top: 20px;
   
-    //   .PortraitImage {
-    //     // TEMPORARY BORDER
-    //     // border: solid 1px brown;
-        
-    //     width: 513px;
-    //     height: 722px;
-    //     overflow: hidden;
-    //   }
-    //   .PortraitImage img {
-    //     width: 513px;
-    //     height: auto;
-    //     margin: -15px 0 0 0;
-    //   }
-    // }
-  
-    .Bio {
-      width: 532px;
-      // position: absolute;
-      margin-top: 72px;
-      // right: 0;
-    } 
-    .Socials {
+    .Content {
       // TEMPORARY BORDER
-      width: 100px;
       // border: solid 1px red;
-      border-left: solid 1px black;
-      margin-top: 100px;
-      margin-left: 100px;
-      .Links {
-        padding-left: 30px;
-        text-align: start;
-        font-style: italic;
-        p {
-          font-weight: 600;
-          line-height: 1.5em;
-        }
+      
+      // height: 722px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  
+      .Bio {
+        max-width: 624px;
+        margin-top: 30px;
       }
+    }
+  
+    .More {
+    //   // TEMPORARY BORDER
+    //   // border: solid 1px blue;
+      
+    //   position: relative;
+      display: flex;
+      flex-direction: row;
+      margin-top: 80px;
+    //   width: 960px;
+    //   height: 334px;
+      align-items: center;
+      justify-content: center;
+      
+    //   .Socials {
+    //     // TEMPORARY BORDER
+    //     // border: solid 1px red;
+    
+    //     // margin-left: 100px;
+    //     width: 100px;
+    //     height: 190px;
+    //     // height: 165px;
+    //     border-left: solid 1px black;
+    //     .Links {
+    //       padding-left: 30px;
+    //       text-align: start;
+    //       font-style: italic;
+    //       h6 {
+    //         font-size: 18px;
+    //         font-weight: 600;
+    //         line-height: 1.5em;
+    //       }
+    //     }
+    //   }
+    .Portrait {
+    // TEMPORARY BORDER
+    // border: solid 1px olive;
+  
+    
+      // position: absolute;
+      // right: 0;
+      // height: 504px;
+      
+      .PortraitImage {
+        // TEMPORARY BORDER
+        // border: solid 1px brown;
+        
+        // margin-bottom: 450px;
+        width: 720px;
+        height: 327.69px;
+        overflow: hidden;
+      }
+      
+      .PortraitImage img {
+        width: 720px;
+        height: auto;
+        margin: -20px 0 0 0;
+        transform: rotateY(180deg);
+      }
+    }
     }
   }
 }
 
 @media screen and (max-width: 1080px) {
-  
+  .About {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    .AboutBox {
+      // TEMPORARY BORDER
+      // border: solid 1px green;
+
+      display: flex;
+      flex-direction: column;
+      margin: 0 60px 140px 60px;
+
+
+    }
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .About {
+    // TEMPORARY BORDER
+    
+    
+    .AboutBox {
+      // border: solid 1px pink;
+      
+      margin: 0 30px 140px 30px;
+      // width: 80vw;
+
+      .Content {
+        .Bio {
+          margin-top: 0;
+        }
+      }
+
+      .More {
+        margin-top: 40px;
+      
+        .Portrait {
+          .PortraitImage {
+            width: 85.61236623067776vw;
+            height: 38.96432818073722vw;
+          }
+          .PortraitImage img {
+            width: 85.61236623067776vw;
+            height: auto;
+            // margin: -1.936108422071636vw 0 0 0;
+          }
+        }
+      }
+
+    }
+  }
 }

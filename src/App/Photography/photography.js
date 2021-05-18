@@ -8,7 +8,7 @@ function Photography() {
     <div className="Photography">
       <div className="Header">
         <div className="Text">
-          <h1><i>The Gallery</i></h1>
+          <h2>The Gallery</h2>
           <p>I took my first photo in 2009—I haven't stopped since. Here are some of my favorites throughout my years of experience.</p>
           {/* <p>See more on my VSCO!</p> */}
         </div>

@@ -9,14 +9,14 @@ function NavBar() {
         <Brand />
 
         <ul id="nav">
-          <Link to="/about">
+          {/* <Link to="/about">
             <li>About</li>
-          </Link>
-          <Link to="/projects">
+          </Link> */}
+          {/* <Link to="/projects">
             <li>Projects</li>
-          </Link>
-          <Link to="photography">
-            <li>Photography</li>
+          </Link> */}
+          <Link to="/gallery">
+            <li>The Gallery</li>
           </Link>
         </ul>
       </div>

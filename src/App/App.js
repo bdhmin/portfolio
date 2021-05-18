@@ -18,7 +18,7 @@ function App() {
             {/* <Route path="/about" component={About}/> */}
             <Route path="/projects" component={ProjectsPage}/>
             {/* <Route path="/Projects/H2UTechnologies" component={H2UTechnologies}/> */}
-            <Route path="/photography" component={Photography}/>
+            <Route path="/gallery" component={Photography}/>
           </Switch>
         </Router>
     </div>
