@@ -1,5 +1,5 @@
 import './home.scss';
-import Projects from '../Projects/projects';
+// import Projects from '../Projects/projects';
 import About from '../About/about';
 
 function Home() {
