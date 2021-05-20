@@ -47,14 +47,14 @@
 
 @media screen and (max-width: 480px) {
   .NavBar {
-    width: 100vw;
+    width: 80vw;
     .Bar {
       
       display: flex;
       margin: 0 20px;
     }
   }
-  
+
   #nav li {
     font-size: 14px;
   }
