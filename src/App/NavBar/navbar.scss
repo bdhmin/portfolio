@@ -4,8 +4,9 @@
   // border: solid 1px lime;
 
   position: absolute;
+  left: 0;
   top: 0;
-  margin: 0 60px;
+  // margin: 0 60px;
   width: 960px;
 
   .Bar {
@@ -51,7 +52,7 @@
     .Bar {
       
       // display: flex;
-      margin: 0 0px;
+      margin: 0 20px;
     }
   }
 
