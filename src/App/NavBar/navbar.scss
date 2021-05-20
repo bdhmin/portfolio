@@ -45,6 +45,19 @@
   
 }
 
+@media screen and (max-width: 480px) {
+  .NavBar {
+    .Bar {
+      // TEMPORARY BORDER
+      // border: solid 1px blue;
+      
+      display: flex;
+      margin: 0 20px;
+    }
+  }
+  
+}
+
 
 
 // Smaller Style

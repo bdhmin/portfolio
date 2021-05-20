@@ -9,7 +9,7 @@ function Photography() {
       <div className="Header">
         <div className="Text">
           <h2>The Gallery</h2>
-          <p>I took my first photo in 2009—I haven't stopped since. Here are some of my favorites throughout my years of experience.</p>
+          <p>I took my first photo in 2009—and I haven't stopped since. Here are some of my favorites throughout my years of experience.</p>
           {/* <p>See more on my VSCO!</p> */}
         </div>
       </div>

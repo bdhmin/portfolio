@@ -107,7 +107,9 @@
 @media screen and (max-width: 840px) {
   .About {
     // TEMPORARY BORDER
-    
+    h2 {
+      font-size: 58px;
+    }
     
     .AboutBox {
       // border: solid 1px pink;
@@ -121,6 +123,30 @@
         }
       }
 
+      .More {
+        margin-top: 40px;
+      
+        .Portrait {
+          .PortraitImage {
+            width: 85.61236623067776vw;
+            height: 38.96432818073722vw;
+          }
+          .PortraitImage img {
+            width: 85.61236623067776vw;
+            height: auto;
+            // margin: -1.936108422071636vw 0 0 0;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .About {
+
+    .AboutBox {
       .More {
         margin-top: 40px;
       

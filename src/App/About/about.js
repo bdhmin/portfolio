@@ -17,13 +17,13 @@ function About() {
 
           <div className="Bio">
             <p>
-              I’m Bryan Min, a student at UC Santa Cruz studying for a B.S. in Computer Engineering.
+              I’m a second-year student at UC Santa Cruz studying for a B.S. in Computer Engineering.
             </p>
             <p>
               I began my creative journey with a curiosity for what aesthetics means to me. Along the way, I became inspired by the minimalist era, and I now strive to produce work that is clean yet deep in emotion.
             </p>
             <p>
-              Through the discovery of my artistic identity, I also grew passionate for building tools through code that can benefit me and my peers. I’m currently building web apps in the Tech4Good Labs and also working on a few things on the side!
+              Through the discovery of my artistic identity, I also grew passionate for building tools through code that can benefit me and my peers. Right now, I'm probably building a container for an app at Tech4Good!
             </p>
           </div>
 

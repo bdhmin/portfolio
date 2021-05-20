@@ -96,3 +96,18 @@
     }
   }
 }
+
+@media screen and (max-width: 1080px) {
+  .Photography {
+    h2 {
+      font-size: 58px;
+    }
+    .Header {
+      width: 100vw;
+      .Text {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    }
+  }
+}
