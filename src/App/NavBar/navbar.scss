@@ -47,13 +47,16 @@
 
 @media screen and (max-width: 480px) {
   .NavBar {
+    width: 100vw;
     .Bar {
-      // TEMPORARY BORDER
-      // border: solid 1px blue;
       
       display: flex;
       margin: 0 20px;
     }
+  }
+  
+  #nav li {
+    font-size: 14px;
   }
   
 }
