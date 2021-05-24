@@ -4,7 +4,7 @@
   // border: solid 1px lime;
 
   position: absolute;
-  left: 0;
+  // left: 0;
   top: 0;
   // margin: 0 60px;
   width: 960px;
@@ -49,6 +49,8 @@
 @media screen and (max-width: 480px) {
   .NavBar {
     width: 100vw;
+    
+    left: 0;
     .Bar {
       
       // display: flex;
