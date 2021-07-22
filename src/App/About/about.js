@@ -17,7 +17,7 @@ function About() {
 
           <div className="Bio">
             <p>
-              I’m a second-year student at UC Santa Cruz studying for a B.S. in Computer Engineering.
+              I’m a third-year student at UC San Diego studying for a B.S. in Computer Science.
             </p>
             <p>
               I began my creative journey with a curiosity for what aesthetics means to me. Along the way, I became inspired by the minimalist era, and I now strive to produce work that is clean yet deep in emotion.

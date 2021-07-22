@@ -34,7 +34,7 @@ class Home extends Component {
         <div className="Intro">
           <div className="Name">Bryan Min</div>
           <div className="Greeting">
-            <h6>I’m a student at UC Santa Cruz studying Computer Engineering who also loves aesthetic design. I'm working as a Web Developer in the <a href="https://tech4good.soe.ucsc.edu/#/" target="_blank" rel="noreferrer"><b>Tech4Good Labs</b></a>.</h6>
+            <h6>I’m a student studying Computer Science who also loves aesthetic design. I'm working as a Web Developer in the <a href="https://tech4good.soe.ucsc.edu/#/" target="_blank" rel="noreferrer"><b>Tech4Good Labs</b></a>.</h6>
             <div className="status">
               <h6><b>Live Status</b>: Currently, I'm { this.state.currentStatus }</h6>
             </div>
