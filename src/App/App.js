@@ -7,7 +7,6 @@ import ProjectsPage from './Projects/projectsPage';
 // import H2UTechnologies from './Projects/H2UTechnologies/h2utechnologies';
 import Photography from './Photography/photography';
 import LiveStatusDoc from './Documentation/LiveStatusDoc/live-status-doc';
-import Socials from './Socials/socials';
 
 function App() {
   return (

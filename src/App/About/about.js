@@ -1,6 +1,4 @@
 import './about.scss';
-import { Link } from 'react-router-dom';
-import Socials from '../Socials/socials';
 import SelfPortrait from '../../assets/About/Bryan-Wall.jpg';
 
 function About() {
