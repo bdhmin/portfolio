@@ -4,23 +4,23 @@ function Socials() {
   return (
     <p className="Socials">
 
-      <a class="lnkdn" href="https://www.linkedin.com/in/bryanmin/" target="_blank">
+      <a class="lnkdn" href="https://www.linkedin.com/in/bryanmin/" target="_blank" rel="noreferrer">
         LinkedIn
       </a>
 
-      <a class="gthb" href="https://github.com/bdhmin/" target="_blank">
+      <a class="gthb" href="https://github.com/bdhmin/" target="_blank" rel="noreferrer">
         GitHub
       </a>
 
-      <a class="insta" href="https://www.instagram.com/bryandmin/" target="_blank">
+      <a class="insta" href="https://www.instagram.com/bryandmin/" target="_blank" rel="noreferrer">
         Instagram
       </a>
 
-      <a class="vsco" href="https://vsco.co/bryanmin/gallery" target="_blank">
+      <a class="vsco" href="https://vsco.co/bryanmin/gallery" target="_blank" rel="noreferrer">
         VSCO
       </a>
 
-      <a class="ytbe" href="https://www.youtube.com/channel/UCw1jdnAfvbwr61af2QdwDtw" target="_blank">
+      <a class="ytbe" href="https://www.youtube.com/channel/UCw1jdnAfvbwr61af2QdwDtw" target="_blank" rel="noreferrer">
         YouTube
       </a>
 {/* 
