@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './home.scss';
 // import Projects from '../Projects/projects';
 import About from '../About/about';
-import Projects from '../Projects/projects';
 const axios = require('axios');
 
 class Home extends Component {
