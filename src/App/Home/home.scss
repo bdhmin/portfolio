@@ -36,6 +36,11 @@
     text-align: center;
     font-size: 128px;
     margin-top: 30vh;
+    cursor: default;
+    transition: 0.2s;
+  }
+  .Name:hover {
+    color: #999794;
   }
   
   .Greeting {
@@ -49,6 +54,15 @@
     word-spacing: 1.6px;
 
   }
+}
+
+.t4g {
+  font-weight: 800;
+  transition: 0.2s;
+}
+.t4g:hover {
+  font-weight: 400;
+  color: #6ea6fb;
 }
 
 @media screen and (max-width: 1080px) {

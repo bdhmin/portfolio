@@ -86,6 +86,24 @@
   }
 }
 
+.ucsd {
+  font-weight: 800;
+  transition: 0.2s;
+}
+.ucsd:hover {
+  font-weight: 400;
+  color: #00629B;
+}
+
+.glry {
+  font-weight: 800;
+  transition: 0.2s;
+}
+.glry:hover {
+  font-weight: 400;
+  color: #4b2df5;
+}
+
 @media screen and (max-width: 1080px) {
   .About {
     width: 100vw;

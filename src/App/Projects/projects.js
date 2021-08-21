@@ -4,8 +4,10 @@ import H2UTechnologiesPreview from './H2UTechnologies/h2utechnologiesPreview';
 function Projects() {
   return (
     <div className="Projects">
-      {/* Soon: href="/Projects/H2UTechnologies" */}
-      <H2UTechnologiesPreview />
+      <div className="ProjectBox">
+        <h2>Involvements</h2>
+
+      </div>
     </div>
 
   )

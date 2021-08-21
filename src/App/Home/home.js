@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './home.scss';
 // import Projects from '../Projects/projects';
 import About from '../About/about';
+import Projects from '../Projects/projects';
 const axios = require('axios');
 
 class Home extends Component {
@@ -21,10 +22,10 @@ class Home extends Component {
         currentStatus: response.data.feed.entry[2].content.$t,
         statusDate: response.data.feed.entry[2].updated.$t
       }, () => {
-        // console.log(response);
+        console.log(response);
       })))
       .catch((error) => {
-        // console.log('Can\'t fetch.', error.message);
+        console.log('Can\'t fetch.', error.message);
       })
   }
 
@@ -34,14 +35,15 @@ class Home extends Component {
         <div className="Intro">
           <div className="Name">Bryan Min</div>
           <div className="Greeting">
-            <h6>I’m a student studying Computer Science who also loves aesthetic design. I'm working as a Web Developer in the <a href="https://tech4good.soe.ucsc.edu/#/" target="_blank" rel="noreferrer"><b>Tech4Good Labs</b></a>.</h6>
-            <div className="status">
-              <h6><b>Live Status</b>: Currently, I'm { this.state.currentStatus }</h6>
-            </div>
+            <h6>I’m a student studying Computer Science who also loves aesthetic design. Currently, I'm working as an Undergrad Research Assistant and Web Developer in the <a class="t4g" href="https://tech4good.soe.ucsc.edu/#/" target="_blank" rel="noreferrer">Tech4Good Labs</a>.</h6>
+            {/* <div className="status">
+              <h6><b>Live Status</b>: I'm { this.state.currentStatus }</h6>
+            </div> */}
           </div>
         </div>
   
         <About />
+        {/* <Projects /> */}
       </div>
     )
   }

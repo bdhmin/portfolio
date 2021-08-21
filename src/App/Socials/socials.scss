@@ -3,64 +3,70 @@
   // TEMPORARY BORDER
   // border: solid 1px green;
   
-  float: right;
-  width: 400px;
+  // border-top: solid 2px #333333;
+  // border-bottom: solid 2px #333333;
+  margin-top: 240px;
+  width: 960px;
+  height: 80px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 
-  // THIS SHOULD BE REPLACED WITH SOMETHIGN THAT WILL PUSH LOGOS DOWN
-  position: absolute;
-  //bottom: 0;
-  margin-top: 30px;
-  right: 0;
-  line-height: 0;
-
-  .Email {
-    // TEMPORARY BORDER
-    // border: solid 1px red;
-    
-    width: 30px;
+  .lnkdn {
     height: auto;
-    cursor: pointer;
+    transition: 0.2s;
   }
-  
+  .lnkdn:hover {
+    color: #0e76a8;
+    // font-weight: 400;
+    // transform: skew(-12deg);
+  }
+
+  .gthb {
+    height: auto;
+    transition: 0.2s;
+  }
+  .gthb:hover {
+    color: #6e5494;
+    // font-weight: 400;
+    // transform: skew(-12deg);
+  }
+
+  .insta {
+    height: auto;
+    transition: 0.2s;
+  }
+  .insta:hover {
+    color: #E1306C;
+    // font-weight: 400;
+    // transform: skew(-12deg);
+  }
+
+  .vsco {
+    height: auto;
+    transition: 0.2s;
+  }
+  .vsco:hover {
+    color: #ae995a;
+    // font-weight: 400;
+    // transform: skew(-12deg);
+  }
+
+  .ytbe {
+    height: auto;
+    transition: 0.2s;
+  } 
+  .ytbe:hover {
+    color: #ff0000;
+    // font-weight: 400;
+    // transform: skew(-12deg);
+  }
+
 
 }
 
-  .Linkedin {
-    // TEMPORARY BORDER
-    // border: solid 1px red;
-    
-    width: 25px;
-    height: auto;
-    cursor: pointer;
-
-    vertical-align: bottom;
-
+@media screen and (max-width: 1080px) {
+  .Socials {
+    width: 100vw;
   }
-  .Instagram {
-    // TEMPORARY BORDER
-    // border: solid 1px red;
-    
-    width: 30px;
-    height: auto;
-    cursor: pointer;
-
-  }
-  .VSCO {
-    // TEMPORARY BORDER
-    // border: solid 1px red;
-    
-    width: 30px;
-    height: auto;
-    cursor: pointer;
-  }
-  .Youtube {
-    // TEMPORARY BORDER
-    // border: solid 1px red;
-    
-    width: 30px;
-    height: auto;
-    cursor: pointer;
-  }
+}

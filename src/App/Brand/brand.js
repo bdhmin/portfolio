@@ -5,7 +5,7 @@ function Brand() {
   return (
     <div className="Brand">
       <Link to="/">
-        <div className="Name">Bryan Min</div>
+        <div className="Name">B</div>
       </Link>
     </div>
   )

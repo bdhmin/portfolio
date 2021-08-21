@@ -1,4 +1,6 @@
 import './about.scss';
+import { Link } from 'react-router-dom';
+import Socials from '../Socials/socials';
 import SelfPortrait from '../../assets/About/Bryan-Wall.jpg';
 
 function About() {
@@ -17,19 +19,27 @@ function About() {
 
           <div className="Bio">
             <p>
-              I’m a third-year student at UC San Diego studying for a B.S. in Computer Science.
+              I’m a rising third-year student at <a class="ucsd" href="https://ucsd.edu" target="_blank" rel="noreferrer">UC San Diego</a> studying for a B.S. in Computer Science.
             </p>
-            <p>
+            {/* <p>
               I began my creative journey with a curiosity for what aesthetics means to me. Along the way, I became inspired by the minimalist era, and I now strive to produce work that is clean yet deep in emotion.
+            </p> */}
+            <p>
+              {/* I'm a developer who loves to build tools that improve the traits of the user using it—traits like productivity, knowledge in a particular field, or even tennis.  */}
+              I'm a developer who loves to build tools that improve the traits of the user using it—traits like productivity, knowledge in a particular field, or even gaming.
             </p>
             <p>
-              Through the discovery of my artistic identity, I also grew passionate for building tools through code that can benefit me and my peers. Right now, I'm probably building a container for an app at Tech4Good!
+              Outside of development, I play tennis, take <a class="glry" href="/gallery">photos</a>, and occaisionally play video games!
             </p>
+            {/* <p>
+              Scroll up to see my <b>live status</b>! If you want to learn how I did this, <Link to="/docs/live-status"><u>click here</u></Link>.
+            </p> */}
           </div>
 
 
 
         </div>
+        
         <div className="More">
           {/* <div className="Socials">
             <div className="Links">
@@ -45,10 +55,9 @@ function About() {
             </div>
           </div>
         </div>
-
+        {/* <Socials /> */}
 
       </div>
-
 
     </div>
   )

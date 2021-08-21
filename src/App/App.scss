@@ -12,6 +12,11 @@
   color: #1D1D1D;
   font-family: 'pt-sans-pro', sans-serif;
 
+  .body {
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+  }
   
 }
 
@@ -65,7 +70,7 @@ h6 {
 p {
   font-weight: 400;
   // font-size: 1.3vw;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.75em;
 }
 
@@ -92,7 +97,7 @@ p {
   p {
     font-weight: 400;
     // font-size: 1.3vw;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.75em;
   }
   

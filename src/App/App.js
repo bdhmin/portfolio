@@ -2,10 +2,12 @@ import './App.scss';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import NavBar from './NavBar/navbar';
 import Home from './Home/home';
-// import About from './About/about';
+import Footer from './Footer/footer';
 import ProjectsPage from './Projects/projectsPage';
 // import H2UTechnologies from './Projects/H2UTechnologies/h2utechnologies';
 import Photography from './Photography/photography';
+import LiveStatusDoc from './Documentation/LiveStatusDoc/live-status-doc';
+import Socials from './Socials/socials';
 
 function App() {
   return (
@@ -13,13 +15,19 @@ function App() {
         <Router>
           <NavBar />
           
-          <Switch>
-            <Route exact path="/" component={Home}/>
-            {/* <Route path="/about" component={About}/> */}
-            <Route path="/projects" component={ProjectsPage}/>
-            {/* <Route path="/Projects/H2UTechnologies" component={H2UTechnologies}/> */}
-            <Route path="/gallery" component={Photography}/>
-          </Switch>
+          <div className="body">
+            <Switch>
+              <Route exact path="/" component={Home}/>
+              {/* <Route path="/about" component={About}/> */}
+              <Route path="/projects" component={ProjectsPage}/>
+              {/* <Route path="/Projects/H2UTechnologies" component={H2UTechnologies}/> */}
+              <Route path="/gallery" component={Photography}/>
+              <Route exact path="/docs/live-status" component={LiveStatusDoc}/>
+            </Switch>
+
+            <Footer />
+          </div>
+
         </Router>
     </div>
   );
