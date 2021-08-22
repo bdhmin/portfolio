@@ -24,10 +24,10 @@ function About() {
             </p> */}
             <p>
               {/* I'm a developer who loves to build tools that improve the traits of the user using it—traits like productivity, knowledge in a particular field, or even tennis.  */}
-              I'm a developer who loves to build tools that improve the traits of the user using it—traits like productivity, knowledge in a particular field, or even gaming.
+              I'm a developer who loves to build tools for self-improvement in productivity, knowledge in a particular field, or even gaming.
             </p>
             <p>
-              Outside of development, I play tennis, take <a class="glry" href="/gallery">photos</a>, and occaisionally play video games!
+              Outside of development, I play tennis, take <a class="glry" href="/gallery">photos</a>, and occasionally play some video games.
             </p>
             {/* <p>
               Scroll up to see my <b>live status</b>! If you want to learn how I did this, <Link to="/docs/live-status"><u>click here</u></Link>.
