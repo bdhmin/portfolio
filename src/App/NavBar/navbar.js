@@ -22,7 +22,7 @@ class NavBar extends Component {
       setTimeout(() => {
         copyBlock.classList.remove('show-popup');
         this.setState({copiedEmail: false});
-      }, 1000);
+      }, 2000);
     }
   }
 
