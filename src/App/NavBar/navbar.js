@@ -15,13 +15,13 @@ class NavBar extends Component {
     if (!this.state.copiedEmail) {
       const copyBlock = document.getElementById('copy');
       copyBlock.classList.add('show-popup');
-      this.state.copiedEmail = true;
+      this.setState({copiedEmail: true});
 
       navigator.clipboard.writeText('bryandhmin@gmail.com');
 
       setTimeout(() => {
         copyBlock.classList.remove('show-popup');
-        this.state.copiedEmail = false;
+        this.setState({copiedEmail: false});
       }, 1000);
     }
   }
