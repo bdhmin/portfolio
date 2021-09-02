@@ -10,17 +10,16 @@
   width: 960px;
 
   .Bar {
+    // border: red 1px solid;
     display: flex;
     align-items: center;
+    position: relative;
     justify-content: space-between;
   }
 
 }
 
 #nav {
-  // border: 1px solid pink;
-
-  // width: 250px;
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -28,9 +27,45 @@
 }
 
 #nav li {
+  // border: red 1px solid;
   font-size: 16px; // less than 18px
   font-weight: 600;
+  transition: 0.3s;
 }
+.nav-item {
+  cursor: pointer;
+}
+.nav-item + .nav-item {
+  margin-left: 80px;
+}
+li:hover {
+  color: #999794;
+}
+
+.copied-popup {
+  display: flex;
+  position: fixed;
+  width: inherit;
+  top: 20px;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s;
+  transform: translateY(-80px);
+  .popup-box {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.copied-popup.show-popup {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
 
 @media screen and (max-width: 1080px) {
   .NavBar {
@@ -57,7 +92,6 @@
       margin: 0 20px;
     }
   }
-
   #nav li {
     font-size: 14px;
   }

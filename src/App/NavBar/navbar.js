@@ -1,27 +1,73 @@
+import React, { Component } from 'react';
 import './navbar.scss';
 import { Link } from 'react-router-dom';
 import Brand from '../Brand/brand'
 
-function NavBar() {
-  return (
-    <div className="NavBar">
-      <div className="Bar">
-        <Brand />
+class NavBar extends Component {
+  constructor() {
+    super();
+    this.state = {
+      copiedEmail: false,
+    }
+  }
 
-        <ul id="nav">
-          {/* <Link to="/about">
-            <li>About</li>
-          </Link> */}
-          {/* <Link to="/projects">
-            <li>Projects</li>
-          </Link> */}
-          <Link to="/gallery">
-            <li>The Gallery</li>
-          </Link>
-        </ul>
+  copyEmail = () => {
+    if (!this.state.copiedEmail) {
+      const copyBlock = document.getElementById('copy');
+      copyBlock.classList.add('show-popup');
+      this.state.copiedEmail = true;
+
+      navigator.clipboard.writeText('bryandhmin@gmail.com');
+
+      setTimeout(() => {
+        copyBlock.classList.remove('show-popup');
+        this.state.copiedEmail = false;
+      }, 1000);
+    }
+  }
+
+  render() {
+    return (
+      <div className="NavBar">
+          <div className="copied-popup" id="copy">
+            <div className="popup-box">
+              Email copied to clipboard!
+            </div>
+          </div>
+        <div className="Bar">
+          <Brand />
+  
+          <ul id="nav">
+            {/* <Link to="/about">
+              <li>About</li>
+            </Link> */}
+            {/* <Link to="/gallery">
+              <li>The Gallery</li>
+            </Link> */}
+  
+  
+            <Link to="/gallery" className="nav-item">
+              <li>The Gallery</li>
+            </Link>
+            <div onClick={this.copyEmail} className="nav-item">
+              <li>Contact Me</li>
+            </div>
+  
+            {/* <span className="nav-item">
+              <Link to="/gallery">
+                <li>The Gallery</li>
+              </Link>
+            </span>
+            <span className="nav-item">
+              <Link to="/gallery">
+                <li>Contact</li>
+              </Link>
+            </span> */}
+          </ul>
+        </div>
       </div>
-    </div>
-  )
+    )
+  }
 }
 
 export default NavBar
