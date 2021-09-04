@@ -43,19 +43,22 @@ li:hover {
 }
 
 .copied-popup {
-  z-index: 10;
-  display: flex;
   position: fixed;
-  width: inherit;
+  width: 180px;
   top: 20px;
+  left: calc(50% - 90px);
+  display: flex;
+  z-index: 10;
   justify-content: center;
   opacity: 0;
+  text-align: center;
   transition: all 0.3s;
   transform: translateY(-80px);
   .popup-box {
+    width: inherit;
     font-size: 14px;
     font-weight: 600;
-    padding: 8px 10px;
+    padding: 8px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.15);
