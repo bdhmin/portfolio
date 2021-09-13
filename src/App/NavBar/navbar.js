@@ -44,11 +44,15 @@ class NavBar extends Component {
             {/* <Link to="/gallery">
               <li>The Gallery</li>
             </Link> */}
-  
-  
-            <Link to="/gallery" className="nav-item">
-              <li>The Gallery</li>
+            <Link to="/projects" className="nav-item">
+              <li>Projects</li>
             </Link>
+            <Link to="/gallery" className="nav-item">
+              <li>Gallery</li>
+            </Link>
+            <a className="nav-item" href="https://drive.google.com/file/d/1l3u772aWaQsYtQeuaqJdGw0JdAX3jCjz/view?usp=sharing" target="_blank" rel="noreferrer">
+              <li>Resume</li>
+            </a>
             <div onClick={this.copyEmail} className="nav-item">
               <li>Contact Me</li>
             </div>
