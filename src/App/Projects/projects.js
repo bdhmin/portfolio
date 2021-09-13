@@ -51,7 +51,7 @@ function Projects() {
           <div className="description">
             <h3>Who Would Win?</h3>
             <h5>Passion Project</h5>
-            <p>A League of Legends player statistics comparison web app. Compare two summoners to find who is more likely to win in a match.</p>
+            <p>A League of Legends player statistics comparison web app. Compare two summoners to find who is more likely to win in a match. Uses Riot API!</p>
 
             <div className="skillset">
               <div className="skill">Javascript</div>
