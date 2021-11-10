@@ -1,5 +1,5 @@
 import './about.scss';
-import SelfPortrait from '../../assets/About/Bryan-Wall.jpg';
+// import SelfPortrait from '../../assets/About/Bryan-Wall.jpg';
 
 function About() {
   return (
@@ -49,7 +49,7 @@ function About() {
             </div>
           </div> */}
           <div className="Portrait">
-            <img className="PortraitImage" src={SelfPortrait} alt="Self Portrait"/>
+            {/* <img className="PortraitImage" src={SelfPortrait} alt="Self Portrait"/> */}
           </div>
         </div>
         {/* <Socials /> */}
