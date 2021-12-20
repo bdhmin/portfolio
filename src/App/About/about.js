@@ -25,11 +25,11 @@ function About() {
             {/* <p>
               I began my creative journey with a curiosity for what aesthetics means to me. Along the way, I became inspired by the minimalist era, and I now strive to produce work that is clean yet deep in emotion.
             </p> */}
-            <p>
-              {/* I'm a developer who loves to build tools that improve the traits of the user using it—traits like productivity, knowledge in a particular field, or even tennis.  */}
+            {/* <p>
+              I'm a developer who loves to build tools that improve the traits of the user using it—traits like productivity, knowledge in a particular field, or even tennis. 
               I grew up in Seoul, South Korea, and then moved to the Bay Area for high school. I've been roaming around California ever since. 
-              Though it's great living in California (amazing weather), I do sometimes miss Korea's food and Seoul's entire vibe. That's okay, I'll go visit very soon!
-            </p>
+              Though it's great living in California (amazing weather), I do sometimes miss Korean food and Seoul's entire vibe. That's okay, I'll go visit very soon!
+            </p> */}
             {/* <p>
               Scroll up to see my <b>live status</b>! If you want to learn how I did this, <Link to="/docs/live-status"><u>click here</u></Link>.
             </p> */}
