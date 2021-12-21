@@ -53,9 +53,9 @@ class NavBar extends Component {
             <a className="nav-item" href="https://drive.google.com/file/d/1l3u772aWaQsYtQeuaqJdGw0JdAX3jCjz/view?usp=sharing" target="_blank" rel="noreferrer">
               <li>Resume</li>
             </a>
-            <div onClick={this.copyEmail} className="nav-item">
+            {/* <div onClick={this.copyEmail} className="nav-item">
               <li>Contact Me</li>
-            </div>
+            </div> */}
   
             {/* <span className="nav-item">
               <Link to="/gallery">

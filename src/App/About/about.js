@@ -18,7 +18,7 @@ function About() {
           <div className="Bio">
             <p>
               I’m a third-year student at <a className="ucsd" href="https://ucsd.edu" target="_blank" rel="noreferrer">UC San Diego</a> studying for a B.S. in Computer Science. 
-              I'm a developer who focuses on building tools for self-improvement. 
+              I'm a developer who focuses on building tools for productivity. 
               I truly believe that everyone can become a better version of themselves with the right motivators and tools, and hopefully my projects can make a difference in my users' learning experience.
               I also build other things for fun that are related to my hobbies such as tennis, <a class="glry" href="/gallery">photography</a>, and video games.
             </p>
