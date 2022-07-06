@@ -6,27 +6,26 @@
 
     width: 960px;
     margin-bottom: 140px;
-  
+
     .Content {
       // TEMPORARY BORDER
       // border: solid 1px red;
-      
+
       // height: 722px;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-  
+
       .Bio {
         max-width: 624px;
         margin-top: 30px;
       }
     }
-  
+
     .More {
     //   // TEMPORARY BORDER
     //   // border: solid 1px blue;
-      
     //   position: relative;
       display: flex;
       flex-direction: row;
@@ -35,11 +34,11 @@
     //   height: 334px;
       align-items: center;
       justify-content: center;
-      
+
     //   .Socials {
     //     // TEMPORARY BORDER
     //     // border: solid 1px red;
-    
+
     //     // margin-left: 100px;
     //     width: 100px;
     //     height: 190px;
