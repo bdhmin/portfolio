@@ -28,21 +28,26 @@ class Home extends Component {
       })
   }
 
+  /* <div className="status">
+    <h6><b>Live Status</b>: I'm { this.state.currentStatus }</h6>
+  </div> */
   render() {
     return (
-      <div className="Home">
+      <div className="home">
+
         <div className="Intro">
           <div className="Name">Bryan Min</div>
           <div className="Greeting">
             <h6>I’m a student studying Computer Science who loves front-end dev and aesthetic design. Currently, I'm an Undergraduate Research Assistant and Lead Developer in the <a className="t4g" href="https://tech4good.soe.ucsc.edu/#/" target="_blank" rel="noreferrer">Tech4Good Lab</a>.</h6>
-            {/* <div className="status">
-              <h6><b>Live Status</b>: I'm { this.state.currentStatus }</h6>
-            </div> */}
           </div>
         </div>
-  
-        <About />
-        {/* <Projects /> */}
+
+        <div class="main">
+          <div class="about-component">
+            <About/>
+          </div>
+          <div class="angle-border"></div>
+        </div>
       </div>
     )
   }

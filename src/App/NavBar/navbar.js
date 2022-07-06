@@ -34,6 +34,9 @@ class NavBar extends Component {
               Email copied to clipboard!
             </div>
           </div>
+        <div class="background-border">
+          <div class="background"></div>
+        </div>
         <div className="Bar">
           <Brand />
   

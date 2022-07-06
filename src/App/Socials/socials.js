@@ -12,17 +12,17 @@ function Socials() {
         GitHub
       </a>
 
-      <a class="insta" href="https://www.instagram.com/bryandmin/" target="_blank" rel="noreferrer">
+      {/* <a class="insta" href="https://www.instagram.com/bryandmin/" target="_blank" rel="noreferrer">
         Instagram
-      </a>
+      </a> */}
 
       <a class="vsco" href="https://vsco.co/bryanmin/gallery" target="_blank" rel="noreferrer">
         VSCO
       </a>
 
-      <a class="ytbe" href="https://www.youtube.com/channel/UCw1jdnAfvbwr61af2QdwDtw" target="_blank" rel="noreferrer">
+      {/* <a class="ytbe" href="https://www.youtube.com/channel/UCw1jdnAfvbwr61af2QdwDtw" target="_blank" rel="noreferrer">
         YouTube
-      </a>
+      </a> */}
 {/* 
       <div className="Email">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 22.5">
