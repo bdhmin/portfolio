@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Controller, Scene } from 'react-scrollmagic';
+import { Tween, Timeline } from 'react-gsap';
 import './home.scss';
 // import Projects from '../Projects/projects';
 import About from '../About/about';
@@ -32,17 +34,39 @@ class Home extends Component {
     <h6><b>Live Status</b>: I'm { this.state.currentStatus }</h6>
   </div> */
   render() {
+
     return (
       <div className="home">
 
         <div className="Intro">
-          <div className="intro-text">
-            <div className="Name">Bryan Min</div>
-            <div className="Greeting">
-              <h6>I’m a student studying Computer Science who loves front-end dev and aesthetic design. Currently, I'm an Undergraduate Research Assistant and Lead Developer in the <a className="t4g" href="https://tech4good.soe.ucsc.edu/#/" target="_blank" rel="noreferrer">Tech4Good Lab</a>.</h6>
-            </div>
-          </div>
+          <Controller>
+            <Scene
+              triggerElement="#trigger"
+              duration={4000}
+            >
+              {(progress) => (
+                <Tween
+                  to={{
+                    // opacity: '0',
+                    filter: 'blur(20px)',
+                    transform: 'scale(0.9)',
+                  }}
+                  ease="Strong.easeOut"
+                  totalProgress={progress}
+                  paused
+                >
+                    <div className="intro-text">
+                      <div className="Name">Bryan Min</div>
+                      <div className="Greeting">
+                        <h6>I’m a student studying Computer Science who loves front-end dev and aesthetic design. Currently, I'm an Undergraduate Research Assistant and Lead Developer in the <a className="t4g" href="https://tech4good.soe.ucsc.edu/#/" target="_blank" rel="noreferrer">Tech4Good Lab</a>.</h6>
+                      </div>
+                    </div>
+                </Tween>
+              )}
+            </Scene>
+          </Controller>
         </div>
+
 
         <div class="main">
           <div class="about-component">
