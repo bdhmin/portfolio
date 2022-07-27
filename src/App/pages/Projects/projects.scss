@@ -1,0 +1,88 @@
+.Projects {
+  // TEMPORARY BORDER
+  // border: solid 1px green;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 140px;
+  margin-bottom: 50px;
+  .projects-content {
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+
+    .project-box {
+      // border: red solid 1px;
+      margin: 40px 0;
+      padding: 20px;
+      width: 960px;
+      display: flex;
+      flex-direction: row;
+      // align-items: center;
+      transition: 0.3s;
+      border-radius: 12px;
+
+      .description {
+        // border: cadetblue solid 1px;
+        position: relative;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 10px 0 0 55px;
+        .title {
+          display: flex;
+          align-items: baseline;
+          flex-direction: row;
+          p {
+            margin-left: 15px;
+            margin-bottom: 5px;
+          }
+        }
+        h5 {
+          line-height: 1em;
+          margin-bottom: 5px;
+        }
+        p {
+          margin-top: 10px;
+          line-height: 1.3em;
+        }
+        .skillset {
+          display: flex;
+          flex-direction: row;
+          position: absolute;
+          bottom: 10px;
+        }
+      }
+    }
+    .project-box:hover {
+      background-color: #fafafa;
+    }
+    .preview {
+      width: 440px;
+      height: 300px;
+      object-fit: cover;
+
+      border-radius: 10px;
+      box-shadow: 0px 4px 20px 0px #00000010;
+    }
+  }
+}
+
+.skill {
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 12px;
+  background-color: #e6e3e0;
+}
+
+.skill + .skill {
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 1080px) {
+
+}
+

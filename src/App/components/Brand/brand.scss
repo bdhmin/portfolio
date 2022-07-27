@@ -1,0 +1,35 @@
+.Brand {
+  // TEMPORARY BORDER
+  // border: solid 1px green;
+
+  display: flex;
+  align-items: flex-start;
+  
+  .Name {
+    font-size: 32px;
+    font-weight: 900;
+    font-family: 'lemonde-journal', serif;
+    text-align: center;
+    // Unselectable text
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none;
+    transition: 0.3s;
+  }
+
+  .Name:hover {
+    color: #999794;
+    font-weight: 400;
+  }
+}
+
+.BrandBlocks {
+  margin-left: 10px;
+  width: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .Name {
+    font-size: 18px;
+  }
+}

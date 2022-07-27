@@ -1,0 +1,102 @@
+.Photography {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 140px;
+  .Header {
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+    .Text {
+      // width: 100vw;
+    }
+  }
+}
+.Photos {
+  // TEMPORARY BORDER
+  // border: solid 1px red;
+  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 91vw;
+  margin: 100px 60px 0px;
+  padding-bottom: 80px;
+}
+
+.Photos img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+// 91vw, -4 -3x
+// 87/3 = 29
+
+.portrait {
+  width: 29vw;
+  height: 40vw;
+  overflow: hidden;
+  margin-bottom: 2vw;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.portrait img {
+  width: auto;
+  height: 45vw;
+  margin-left: -0.7vw;
+  margin-top: -3vw;
+}
+
+.landscape {
+  width: 60vw; // 29*2 + 2
+  height: 40vw;
+  overflow: hidden;
+  margin-bottom: 2vw;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.landscape img {
+  width: auto;
+  height: 42vw;
+  margin-left: -1vw;
+}
+
+// EXTRA MARGIN EDITS FOR PHOTOS
+.portrait {
+  .Angus {
+    margin-left: -2vw;
+  }
+  .Ian {
+    margin-left: -2vw;
+  }
+  .Stargazing {
+    margin-left: -3vw;
+  }
+  .Seoul {
+    margin-left: -3vw;
+  }
+  .RedMotorcycles {
+    margin-left: -1.8vw;
+  }  
+}
+
+@media screen and (max-width: 1080px) {
+  .Photography {
+    .Header {
+      width: 100vw;
+      .Text {
+        margin-left: 60px;
+        margin-right: 60px;
+      }
+    }
+  }
+}

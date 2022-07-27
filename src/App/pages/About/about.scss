@@ -1,0 +1,192 @@
+.About {
+  // TEMPORARY BORDER
+  // border: solid 1px gold;
+
+  .AboutBox {
+
+    width: 960px;
+    margin-bottom: 140px;
+
+    .Content {
+      // TEMPORARY BORDER
+      // border: solid 1px red;
+
+      // height: 722px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      .Bio {
+        max-width: 624px;
+        margin-top: 30px;
+      }
+    }
+
+    .More {
+    //   // TEMPORARY BORDER
+    //   // border: solid 1px blue;
+    //   position: relative;
+      display: flex;
+      flex-direction: row;
+      margin-top: 80px;
+    //   width: 960px;
+    //   height: 334px;
+      align-items: center;
+      justify-content: center;
+
+    //   .Socials {
+    //     // TEMPORARY BORDER
+    //     // border: solid 1px red;
+
+    //     // margin-left: 100px;
+    //     width: 100px;
+    //     height: 190px;
+    //     // height: 165px;
+    //     border-left: solid 1px black;
+    //     .Links {
+    //       padding-left: 30px;
+    //       text-align: start;
+    //       font-style: italic;
+    //       h6 {
+    //         font-size: 18px;
+    //         font-weight: 600;
+    //         line-height: 1.5em;
+    //       }
+    //     }
+    //   }
+    .Portrait {
+    // TEMPORARY BORDER
+    // border: solid 1px olive;
+  
+    
+      // position: absolute;
+      // right: 0;
+      // height: 504px;
+      
+      .PortraitImage {
+        // TEMPORARY BORDER
+        // border: solid 1px brown;
+        
+        // margin-bottom: 450px;
+        width: 960px;
+        height: 520px;
+        overflow: hidden;
+        // width: 440px;
+        // height: 300px;
+        object-fit: cover;
+  
+        border-radius: 10px;
+        box-shadow: 0px 4px 20px 0px #00000010;
+      }
+      
+      .PortraitImage img {
+        width: 960px;
+        height: auto;
+        margin: -20px 0 0 0;
+        transform: rotateY(180deg);
+      }
+    }
+    }
+  }
+}
+
+.ucsd {
+  font-weight: 800;
+  transition: 0.2s;
+}
+.ucsd:hover {
+  font-weight: 400;
+  color: #00629B;
+}
+
+.glry {
+  font-weight: 800;
+  transition: 0.2s;
+}
+.glry:hover {
+  font-weight: 400;
+  color: #4b2df5;
+}
+
+@media screen and (max-width: 1080px) {
+  .About {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    .AboutBox {
+      // TEMPORARY BORDER
+      // border: solid 1px green;
+
+      display: flex;
+      flex-direction: column;
+      margin: 0 60px 140px 60px;
+
+      .More {
+        margin-top: 40px;
+      
+        .Portrait {
+          .PortraitImage {
+            width: 85vw;
+            height: 46vw;
+          }
+          .PortraitImage img {
+            width: 85.61236623067776vw;
+            height: auto;
+            // margin: -1.936108422071636vw 0 0 0;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .About {
+    // TEMPORARY BORDER
+    h2 {
+      font-size: 58px;
+    }
+    
+    .AboutBox {
+      // border: solid 1px pink;
+      
+      margin: 0 30px 140px 30px;
+      // width: 80vw;
+
+      .Content {
+        .Bio {
+          margin-top: 0;
+        }
+      }
+
+      
+
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .About {
+
+    .AboutBox {
+      .More {
+        margin-top: 40px;
+      
+        .Portrait {
+          .PortraitImage {
+            width: 85.61236623067776vw;
+            height: 38.96432818073722vw;
+          }
+          .PortraitImage img {
+            width: 85.61236623067776vw;
+            height: auto;
+            // margin: -1.936108422071636vw 0 0 0;
+          }
+        }
+      }
+
+    }
+  }
+}
