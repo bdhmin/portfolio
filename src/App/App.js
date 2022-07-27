@@ -1,12 +1,12 @@
 import './App.scss';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import NavBar from './NavBar/navbar';
-import Home from './Home/home';
-import Timeline from './Timeline/timeline';
-import Footer from './Footer/footer';
-import Projects from './Projects/projects';
+import NavBar from './components/NavBar/navbar';
+import Home from './pages/Home/home';
+import Timeline from './pages/Timeline/timeline';
+import Footer from './components/Footer/footer';
+import Projects from './pages/Projects/projects';
 // import H2UTechnologies from './Projects/H2UTechnologies/h2utechnologies';
-import Photography from './Photography/photography';
+import Photography from './pages/Photography/photography';
 import LiveStatusDoc from './Documentation/LiveStatusDoc/live-status-doc';
 
 function App() {
@@ -24,7 +24,6 @@ function App() {
               <Route path="/gallery" component={Photography}/>
               <Route exact path="/docs/live-status" component={LiveStatusDoc}/>
             </Switch>
-
             <Footer />
           </div>
 
