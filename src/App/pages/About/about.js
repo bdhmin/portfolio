@@ -26,14 +26,9 @@ function About() {
               I discovered my interest in app development for productivity while I developed social computing web apps in professor David T. Lee's lab.
               I was introduced to many differnt uses of online platforms to support communities grow, be heard, and bond.
             </p>
-            {/* <p>
-              I began my creative journey with a curiosity for what aesthetics means to me. Along the way, I became inspired by the minimalist era, and I now strive to produce work that is clean yet deep in emotion.
-            </p> */}
-            {/* <p>
-              I'm a developer who loves to build tools that improve the traits of the user using it—traits like productivity, knowledge in a particular field, or even tennis. 
-              I grew up in Seoul, South Korea, and then moved to the Bay Area for high school. I've been roaming around California ever since. 
-              Though it's great living in California (amazing weather), I do sometimes miss Korean food and Seoul's entire vibe. That's okay, I'll go visit very soon!
-            </p> */}
+            <p>
+              I began my creative journey with a curiosity for what aesthetics means to me. Along the way, I became inspired by the minimalist era, and I now strive to produce work that is clean yet deep in emotion. My personal website attempts to practice this philosophy as its color palette, layout, and fonts have a minimalistic taste, yet components of the app shift in depth as the user scrolls.
+            </p>
             {/* <p>
               Scroll up to see my <b>live status</b>! If you want to learn how I did this, <Link to="/docs/live-status"><u>click here</u></Link>.
             </p> */}

@@ -7,7 +7,6 @@ function Projects() {
     <div className="Projects">
       <div className="projects-content">
         <h2>Projects</h2>
-        {/* https://devpost.com/software/marathon-gsz8to */}
 
         <ProjectItem
           title={'Marathon.'}
