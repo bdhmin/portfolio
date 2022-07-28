@@ -41,15 +41,12 @@ class NavBar extends Component {
           <Brand />
   
           <ul id="nav">
-            <Link to="/" className="nav-item">
+            {/* <Link to="/" className="nav-item">
               <li>About</li>
-            </Link>
+            </Link> */}
             <Link to="/timeline" className="nav-item">
               <li>Timeline</li>
             </Link>
-            {/* <Link to="/gallery">
-              <li>The Gallery</li>
-            </Link> */}
             <Link to="/projects" className="nav-item">
               <li>Projects</li>
             </Link>

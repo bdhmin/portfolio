@@ -7,7 +7,7 @@ import Footer from './components/Footer/footer';
 import Projects from './pages/Projects/projects';
 // import H2UTechnologies from './Projects/H2UTechnologies/h2utechnologies';
 import Photography from './pages/Photography/photography';
-import LiveStatusDoc from './Documentation/LiveStatusDoc/live-status-doc';
+// import LiveStatusDoc from './documentation/LiveStatusDoc/live-status-doc';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
               <Route path="/timeline" component={Timeline}/>
               {/* <Route path="/Projects/H2UTechnologies" component={H2UTechnologies}/> */}
               <Route path="/gallery" component={Photography}/>
-              <Route exact path="/docs/live-status" component={LiveStatusDoc}/>
+              {/* <Route exact path="/docs/live-status" component={LiveStatusDoc}/> */}
             </Switch>
             <Footer />
           </div>

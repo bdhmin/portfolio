@@ -9,7 +9,13 @@ function Photography() {
       <div className="Header">
         <div className="Text">
           <h2>Gallery</h2>
-          <p>I took my first photo in 2009—and I haven't stopped since. My gallery is an representation of my creative soul, and I believe this creative soul drives me to continue exploring new development ideas.</p>
+          {/* I took my first photo in 2009—and I haven't stopped since.  */}
+          <p>
+            My gallery is an representation of my creative soul, and I believe this creative soul drives me to continue exploring new development ideas. The gallery gives me the space to showcase the roots of my creative talents. This is also professional, as I take lots of inspiration from the colors and layouts of my photography to my personal projects.
+          </p>
+          <p>
+            As a frontend developer, I believe it is critical for me to carry my artistic touch to development, even if required to follow the designs of a professional UI/UX designer. There are certain gaps the frontend developer needs to fill, and those gaps may sometimes require an artistic mind.
+          </p>
           {/* <p>See more on my VSCO!</p> */}
         </div>
       </div>

@@ -13,18 +13,20 @@
 
 .event {
   margin: 32px 0 16px;
+  width: inherit;
   h5 {
     margin: 0;
     padding: 0;
     line-height: 1.5em;
   }
-  
+
   p {
     margin: 0;
   }
-  
+
   img {
     margin: 8px 0;
     max-height: 300px;
+    border-radius: 16px;
   }
 }
