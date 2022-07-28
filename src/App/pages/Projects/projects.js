@@ -49,10 +49,6 @@ function Projects() {
 }
 
 class ProjectItem extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <a className="project-box" href={this.props.link} target="_blank" rel="noreferrer">

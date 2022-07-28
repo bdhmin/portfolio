@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import './timeline.scss';
 
 class Timeline extends Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
       <div class="timeline">
@@ -83,16 +79,12 @@ class Timeline extends Component {
 }
 
 class Event extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div class="event">
         <h5>{this.props.title}</h5>
         <p>{this.props.body}</p>
-        <img src={this.props.image} />
+        <img src={this.props.image} alt={this.props.title}/>
       </div>
     )
   }
