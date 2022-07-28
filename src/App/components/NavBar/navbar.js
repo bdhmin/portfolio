@@ -35,7 +35,7 @@ class NavBar extends Component {
             </div>
           </div>
         <div class="background-border">
-          <div class="background"></div>
+          <div class="background-bar"></div>
         </div>
         <div className="Bar">
           <Brand />
@@ -44,6 +44,9 @@ class NavBar extends Component {
             {/* <Link to="/" className="nav-item">
               <li>About</li>
             </Link> */}
+            <Link to="/background" className="nav-item">
+              <li>Background</li>
+            </Link>
             <Link to="/timeline" className="nav-item">
               <li>Timeline</li>
             </Link>
