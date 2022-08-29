@@ -44,19 +44,19 @@ class NavBar extends Component {
             {/* <Link to="/" className="nav-item">
               <li>About</li>
             </Link> */}
-            <Link to="/background" className="nav-item">
+            {/* <Link to="/background" className="nav-item">
               <li>Background</li>
-            </Link>
-            <Link to="/timeline" className="nav-item">
+            </Link> */}
+            {/* <Link to="/timeline" className="nav-item">
               <li>Timeline</li>
-            </Link>
+            </Link> */}
             <Link to="/projects" className="nav-item">
               <li>Projects</li>
             </Link>
             <Link to="/gallery" className="nav-item">
               <li>Gallery</li>
             </Link>
-            <a className="nav-item" href="https://drive.google.com/file/d/1j__thUWzT6D2qgWTh8eHt-_1Vd3z310A/view?usp=sharing" target="_blank" rel="noreferrer">
+            <a className="nav-item" href="https://drive.google.com/file/d/1OI90k0_RCVjZIiIyvhXtSn5DpGX8X9QJ/view?usp=sharing" target="_blank" rel="noreferrer">
               <li>Resume</li>
             </a>
             {/* <div onClick={this.copyEmail} className="nav-item">
