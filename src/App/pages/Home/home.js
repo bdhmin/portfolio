@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Controller, Scene } from 'react-scrollmagic';
 import { Tween } from 'react-gsap';
 import './home.scss';
-// import Projects from '../Projects/projects';
 import About from '../About/about';
 const axios = require('axios');
 
