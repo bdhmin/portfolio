@@ -35,17 +35,20 @@ class NavBar extends Component {
             </div>
           </div>
         <div class="background-border">
-          <div class="background"></div>
+          <div class="background-bar"></div>
         </div>
         <div className="Bar">
           <Brand />
   
           <ul id="nav">
-            {/* <Link to="/about">
+            {/* <Link to="/" className="nav-item">
               <li>About</li>
             </Link> */}
-            {/* <Link to="/gallery">
-              <li>The Gallery</li>
+            {/* <Link to="/background" className="nav-item">
+              <li>Background</li>
+            </Link> */}
+            {/* <Link to="/timeline" className="nav-item">
+              <li>Timeline</li>
             </Link> */}
             <Link to="/projects" className="nav-item">
               <li>Projects</li>
@@ -53,7 +56,7 @@ class NavBar extends Component {
             <Link to="/gallery" className="nav-item">
               <li>Gallery</li>
             </Link>
-            <a className="nav-item" href="https://drive.google.com/file/d/1l3u772aWaQsYtQeuaqJdGw0JdAX3jCjz/view?usp=sharing" target="_blank" rel="noreferrer">
+            <a className="nav-item" href="https://drive.google.com/file/d/1OI90k0_RCVjZIiIyvhXtSn5DpGX8X9QJ/view?usp=sharing" target="_blank" rel="noreferrer">
               <li>Resume</li>
             </a>
             {/* <div onClick={this.copyEmail} className="nav-item">

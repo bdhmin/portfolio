@@ -12,14 +12,14 @@
 
   .Bar {
     // border: red 1px solid;
-    width: 960px;
+    width: 860px;
     display: flex;
     align-items: center;
     position: relative;
     justify-content: space-between;
   }
   .background-border {
-    .background {
+    .background-bar {
       z-index: 0;
       position: absolute;
       top: 0;
