@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './projects.scss';
-import projects from '../../../assets/Projects'
+import { projects, techstack } from '../../../assets/Projects'
 
 function Projects() {
   return (
@@ -9,12 +9,21 @@ function Projects() {
         <h2>Projects</h2>
 
         <ProjectItem
+          title={'Maintain'}
+          description={'A date-based task-managing desktop app. Maintain steady productivity with tasks that last until you complete them and habits that reappear each day.'}
+          type={'Personal Project'}
+          image={projects.Maintain}
+          link={'https://github.com/bdhmin/Maintain'}
+          skills={[techstack.Electron, techstack.Angular, techstack.TypeScript, techstack.HTML, techstack.Sass, techstack.Firebase]}
+        />
+
+        <ProjectItem
           title={'Marathon.'}
           description={'A social goal-tracking app. Keep yourself and others accountable and achieve your dream goals with your self-created community supporting your entire journey.'}
           type={'SD Hacks 2022 Winner'}
           image={projects.Marathon}
           link={'https://devpost.com/software/marathon-gsz8to'}
-          skills={['JavaScipt', 'HTML', 'CSS', 'React', 'Flask', 'MongoDB']}
+          skills={[techstack.React, techstack.Javascript, techstack.HTML, techstack.CSS, techstack.Flask, techstack.MongoDB, techstack.Python]}
         />
 
         <ProjectItem
@@ -23,7 +32,7 @@ function Projects() {
           type={'The Tech4Good Lab'}
           image={projects.Annota}
           link={'https://tech4good.soe.ucsc.edu/#/'}
-          skills={['TypeScript', 'HTML', 'CSS', 'Angular', 'NgRx', 'Firebase']}
+          skills={[techstack.Angular, techstack.TypeScript, techstack.HTML, techstack.Sass, techstack.Firebase]}
         />
 
         <ProjectItem
@@ -32,7 +41,7 @@ function Projects() {
           type={'The Tech4Good Lab'}
           image={projects.Gratitude}
           link={'https://tech4good.soe.ucsc.edu/#/'}
-          skills={['TypeScript', 'HTML', 'CSS', 'Angular', 'NgRx', 'Firebase']}
+          skills={[techstack.Angular, techstack.TypeScript, techstack.HTML, techstack.Sass, techstack.Firebase]}
         />
 
         <ProjectItem
@@ -41,7 +50,7 @@ function Projects() {
           type={'Passion Project'}
           image={projects.WhoWouldWin}
           link={'https://github.com/bdhmin/WhoWouldWin'}
-          skills={['Javascript', 'HTML', 'CSS', 'React', 'Express']}
+          skills={[techstack.React, techstack.Javascript, techstack.HTML, techstack.CSS, techstack.Express]}
         />
       </div>
     </div>
@@ -60,7 +69,7 @@ class ProjectItem extends Component {
 
           <div className="skillset">
             {
-              this.props.skills.map((skill) => <div className='skill'>{skill}</div>)
+              this.props.skills.map((skill) => <img style={{width: 'auto', height: '22px'}} src={skill} alt="skill" />)
             }
           </div>
         </div>

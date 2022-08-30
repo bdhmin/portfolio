@@ -54,6 +54,7 @@
           flex-direction: row;
           position: absolute;
           bottom: 10px;
+          gap: 18px;
         }
       }
     }
@@ -79,7 +80,7 @@
 }
 
 .skill + .skill {
-  margin-left: 5px;
+  margin-left: 50px;
 }
 
 @media screen and (max-width: 1080px) {
