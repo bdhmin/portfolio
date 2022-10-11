@@ -35,17 +35,20 @@ class NavBar extends Component {
             </div>
           </div>
         <div class="background-border">
-          <div class="background"></div>
+          <div class="background-bar"></div>
         </div>
         <div className="Bar">
           <Brand />
   
           <ul id="nav">
-            {/* <Link to="/about">
+            {/* <Link to="/" className="nav-item">
               <li>About</li>
             </Link> */}
-            {/* <Link to="/gallery">
-              <li>The Gallery</li>
+            {/* <Link to="/background" className="nav-item">
+              <li>Background</li>
+            </Link> */}
+            {/* <Link to="/timeline" className="nav-item">
+              <li>Timeline</li>
             </Link> */}
             <Link to="/projects" className="nav-item">
               <li>Projects</li>
