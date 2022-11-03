@@ -56,7 +56,7 @@ class NavBar extends Component {
             <Link to="/gallery" className="nav-item">
               <li>Gallery</li>
             </Link>
-            <a className="nav-item" href="https://drive.google.com/file/d/1CMoy30ZEuwqnxgBfB8KzJ-yTImSl9LXF/view?usp=sharing" target="_blank" rel="noreferrer">
+            <a className="nav-item" href="https://drive.google.com/file/d/1OI90k0_RCVjZIiIyvhXtSn5DpGX8X9QJ/view?usp=share_link" target="_blank" rel="noreferrer">
               <li>Resume</li>
             </a>
             {/* <div onClick={this.copyEmail} className="nav-item">
