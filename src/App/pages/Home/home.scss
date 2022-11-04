@@ -39,29 +39,63 @@
       word-spacing: 1.6px;
     }
   }
-
-
+}
+#intro-ends {
+  content:'';
 }
 
-.main {
+.about-section {
+  width: 100%;
+  height: fit-content;
+  .about-inner {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    .about-component {
+      z-index: 3;
+      height: fit-content;
+      padding-bottom: 10vh;
+    }
+    .angle-border {
+      z-index: 2;
+      content:'';
+      position: absolute;
+      top: -150px;
+      left: 0;
+      width: 100%;
+      height: calc(100% + 10vh);
+      background-color: #ffffff;
+      transform: skewY(4deg);
+    }
+  }
+}
+#about-ends {
+  content:'';
+}
+
+.projects-section {
   position: relative;
   width: 100%;
+  height: fit-content;
+  margin-top: -10vh;
   display: flex;
-  justify-content: center;
-  .about-component {
-    z-index: 3;
-    height: 700px;
+  background-color: white;
+  .projects-component {
+    z-index: 5;
+    height: fit-content;
   }
   .angle-border {
-    z-index: 2;
+    z-index: 4;
     content:'';
     position: absolute;
     top: -150px;
     left: 0;
     width: 100%;
-    height: 800px;
+    height: 100%;
     background-color: #ffffff;
-    transform: skewY(-4deg);
+    transform: skewY(4deg);
   }
 }
 

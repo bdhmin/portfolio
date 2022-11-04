@@ -3,6 +3,7 @@ import { Controller, Scene } from 'react-scrollmagic';
 import { Tween } from 'react-gsap';
 import './home.scss';
 import About from '../About/about';
+import Projects from '../Projects/projects';
 const axios = require('axios');
 
 class Home extends Component {
@@ -37,7 +38,7 @@ class Home extends Component {
     return (
       <div className="home">
 
-        <div className="Intro">
+        <section className="Intro">
           <Controller>
             <Scene
               triggerElement="#trigger"
@@ -64,15 +65,62 @@ class Home extends Component {
               )}
             </Scene>
           </Controller>
-        </div>
+        </section>
+        <div id="intro-ends"></div>
+
+        {/* <Controller>
+          <Scene
+          >
+
+          </Scene>
+        </Controller> */}
 
 
-        <div class="main">
-          <div class="about-component">
-            <About/>
+        {/* <section class="about-section">
+          <Controller>
+              <Scene
+                triggerElement="#intro-ends"
+                duration={4000}
+                offset={window.innerHeight/2.5}
+              >
+                {(progress) => (
+                  <Tween
+                    to={{
+                      filter: 'blur(20px)',
+                      transform: 'scale(0.9)',
+                    }}
+                    ease="Strong.easeOut"
+                    totalProgress={progress}
+                    paused
+                  >
+                  <div class="about-inner">
+                    <div class="about-component">
+                      <About/>
+                    </div>
+                    <div class="angle-border"></div>
+                  </div>
+                </Tween>
+              )}
+            </Scene>
+          </Controller>
+        </section>
+        <div id="about-ends"></div> */}
+
+        <section class="about-section">
+          <div class="about-inner">
+            <div class="about-component">
+              <About/>
+            </div>
+            <div class="angle-border"></div>
+          </div>
+        </section>
+
+        <section class="projects-section">
+          <div class="projects-component">
+            <Projects/>
           </div>
           <div class="angle-border"></div>
-        </div>
+        </section>
       </div>
     )
   }

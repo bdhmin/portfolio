@@ -10,7 +10,9 @@
   height: 80px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 48px;
+  opacity: 0.5;
 
   .lnkdn {
     height: auto;

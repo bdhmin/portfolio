@@ -50,9 +50,9 @@ class NavBar extends Component {
             {/* <Link to="/timeline" className="nav-item">
               <li>Timeline</li>
             </Link> */}
-            <Link to="/projects" className="nav-item">
+            {/* <Link to="/projects" className="nav-item">
               <li>Projects</li>
-            </Link>
+            </Link> */}
             <Link to="/gallery" className="nav-item">
               <li>Gallery</li>
             </Link>
