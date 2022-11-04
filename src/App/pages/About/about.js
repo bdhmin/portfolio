@@ -27,7 +27,7 @@ function About() {
               I was introduced to many differnt uses of online platforms to support communities grow, be heard, and bond.
             </p>
             <p>
-              I began my creative journey with a curiosity for what aesthetics means to me. Along the way, I became inspired by the minimalist era, and I now strive to produce work that is clean yet deep in emotion. My personal website attempts to practice this philosophy as its color palette, layout, and fonts have a minimalistic taste, yet components of the app shift in depth as the user scrolls.
+              I began my creative journey with a curiosity for what aesthetics means to me. Along the way, I became inspired by the minimalist era, and I now strive to produce work that is clean yet deep in emotion.
             </p>
             {/* <p>
               Scroll up to see my <b>live status</b>! If you want to learn how I did this, <Link to="/docs/live-status"><u>click here</u></Link>.
