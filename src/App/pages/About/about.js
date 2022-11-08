@@ -20,15 +20,15 @@ function About() {
               I’m a fourth-year student at <a className="ucsd" href="https://ucsd.edu" target="_blank" rel="noreferrer">UC San Diego</a> studying for a B.S. in Computer Science. 
               I'm a developer who focuses on building tools for productivity and personal growth. 
               I truly believe that everyone can become a better version of themselves with the right motivators and tools, and I home to create projects that can make a difference in people aspiring to grow.
-              I also do other things for fun that are related to my hobbies such as tennis, <a class="glry" href="/gallery">photography</a>, and video games.
+              I also do other things for fun that are related to my hobbies such as tennis and <a class="glry" href="/gallery">photography</a>.
             </p>
             <p>
               I discovered my interest in app development for productivity while I developed social computing web apps in professor David T. Lee's lab.
-              I was introduced to many differnt uses of online platforms to support communities grow, be heard, and bond.
+              I was introduced to many differnt uses of online platforms to support growth in communities.
             </p>
-            <p>
+            {/* <p>
               I began my creative journey with a curiosity for what aesthetics means to me. Along the way, I became inspired by the minimalist era, and I now strive to produce work that is clean yet deep in emotion.
-            </p>
+            </p> */}
             {/* <p>
               Scroll up to see my <b>live status</b>! If you want to learn how I did this, <Link to="/docs/live-status"><u>click here</u></Link>.
             </p> */}

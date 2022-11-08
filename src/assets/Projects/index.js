@@ -1,6 +1,6 @@
 import Maintain from './project-previews/Maintain.png'
 import Marathon from './project-previews/Marathon.jpeg'
-import Annota from './project-previews/Annota.png'
+import Annota from './project-previews/Annota2.png'
 import Gratitude from './project-previews/Gratitude.png'
 import WhoWouldWin from './project-previews/WhoWouldWin.png'
 

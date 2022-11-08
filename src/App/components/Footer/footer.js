@@ -6,7 +6,7 @@ function Footer() {
     <div className="Footer">
       <Socials />
       <span className="msg">정성으로 만든</span>
-      <span className="cp">Copyright © 2021 – Bryan Min</span>
+      <span className="cp">Copyright © 2022 • Bryan Min</span>
     </div>
   )
 }

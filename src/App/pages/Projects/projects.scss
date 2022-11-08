@@ -22,7 +22,7 @@
       flex-direction: row;
       // align-items: center;
       transition: 0.3s;
-      border-radius: 12px;
+      border-radius: 7px;
 
       .description {
         // border: cadetblue solid 1px;
@@ -60,14 +60,17 @@
     }
     .project-box:hover {
       background-color: #fafafa;
+      // height: 500px;
+      // width: 100%;
+      z-index: 100;
     }
     .preview {
       width: 440px;
       height: 300px;
       object-fit: cover;
 
-      border-radius: 10px;
-      box-shadow: 0px 4px 20px 0px #00000010;
+      border-radius: 5px;
+      // box-shadow: 0px 4px 20px 0px #00000010;
     }
   }
 }
