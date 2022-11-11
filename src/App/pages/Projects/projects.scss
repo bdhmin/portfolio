@@ -11,8 +11,16 @@
     width: 960px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex;
+    .preview {
+      width: 440px;
+      height: 300px;
+      object-fit: cover;
 
+      border-radius: 5px;
+      // box-shadow: 0px 4px 20px 0px #00000010;
+    }
     .project-box {
       // border: red solid 1px;
       margin: 40px 0;
@@ -31,7 +39,7 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        margin: 10px 0 0 55px;
+        margin: 10px 55px 0 55px;
         .title {
           display: flex;
           align-items: baseline;
@@ -64,14 +72,7 @@
       // width: 100%;
       z-index: 100;
     }
-    .preview {
-      width: 440px;
-      height: 300px;
-      object-fit: cover;
 
-      border-radius: 5px;
-      // box-shadow: 0px 4px 20px 0px #00000010;
-    }
   }
 }
 
@@ -87,6 +88,19 @@
 }
 
 @media screen and (max-width: 1080px) {
+  .Projects {
+    justify-content: center;
+    .projects-content {
+      justify-content: center;
+      .project-box {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80vw;
+      }
 
+    }
+  }
 }
 
