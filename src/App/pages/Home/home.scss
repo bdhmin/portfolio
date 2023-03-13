@@ -108,6 +108,15 @@
   color: #6ea6fb;
 }
 
+.creativity {
+  font-weight: 800;
+  transition: 0.2s;
+}
+.creativity:hover {
+  font-weight: 400;
+  color: #9c9a99;
+}
+
 @media screen and (max-width: 1080px) {
   .Intro {
     margin-bottom: 4.132231404958677vw;
