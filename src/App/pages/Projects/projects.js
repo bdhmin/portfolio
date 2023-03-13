@@ -11,7 +11,7 @@ function Projects() {
         <ProjectItem
           title={'Maintain'}
           description={'A date-based task-managing desktop app. Maintain steady productivity with tasks that last until you complete them and habits that reappear each day.'}
-          type={'Passion Project'}
+          type={'Personal Project'}
           image={projects.Maintain}
           link={'https://github.com/bdhmin/Maintain'}
           skills={[techstack.Electron, techstack.Angular, techstack.TypeScript, techstack.HTML, techstack.Sass, techstack.Firebase]}
@@ -47,7 +47,7 @@ function Projects() {
         <ProjectItem
           title={'Who Would Win?'}
           description={'A League of Legends player statistics comparison web app. Compare two summoners to find who is more likely to win in a match. Uses Riot API!'}
-          type={'Passion Project'}
+          type={'Personal Project'}
           image={projects.WhoWouldWin}
           link={'https://github.com/bdhmin/WhoWouldWin'}
           skills={[techstack.React, techstack.Javascript, techstack.HTML, techstack.CSS, techstack.Express]}

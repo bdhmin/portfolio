@@ -91,13 +91,20 @@
   .Projects {
     justify-content: center;
     .projects-content {
-      justify-content: center;
+      width: 100vw;
+      align-items: center;
       .project-box {
-        padding: 0;
+        padding: 20px;
+        margin: 10px 55px 0 55px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         width: 80vw;
+        .preview {
+          width: 300px;
+          height: auto;
+          margin: 0 55px;
+        }
       }
 
     }
