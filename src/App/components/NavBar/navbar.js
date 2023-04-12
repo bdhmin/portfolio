@@ -53,9 +53,9 @@ class NavBar extends Component {
             {/* <Link to="/projects" className="nav-item">
               <li>Projects</li>
             </Link> */}
-            <Link to="/gallery" className="nav-item">
+            {/* <Link to="/gallery" className="nav-item">
               <li>Gallery</li>
-            </Link>
+            </Link> */}
             <a className="nav-item" href="https://drive.google.com/file/d/1OI90k0_RCVjZIiIyvhXtSn5DpGX8X9QJ/view?usp=share_link" target="_blank" rel="noreferrer">
               <li>Resume</li>
             </a>

@@ -18,7 +18,7 @@ function About() {
           <div className="Bio">
             <p>
               I’m a fourth-year undergraduate student at <a className="ucsd" href="https://ucsd.edu" target="_blank" rel="noreferrer">UC San Diego</a> pursuing Computer Science. 
-              I am doing research in the <a className="creativity" href="https://creativity.ucsd.edu/" target="_blank" rel="noreferrer">Creativity Lab</a> on building interfaces and systems to improve workflows for productivity.
+              I am doing research at the <a className="creativity" href="https://creativity.ucsd.edu/" target="_blank" rel="noreferrer">Creativity Lab</a> on building interfaces and systems to improve workflows for productivity.
             </p>
             <p>
               Previously, I was a part of the <a className="t4g" href="https://tech4good.soe.ucsc.edu/#/" target="_blank" rel="noreferrer">Tech4Good Lab</a>, where I developed web applications for social computing research.
