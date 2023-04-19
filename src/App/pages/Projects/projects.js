@@ -67,11 +67,11 @@ class ProjectItem extends Component {
           <h5>{this.props.type}</h5>
           <p>{this.props.description}</p>
 
-          <div className="skillset">
+          {/* <div className="skillset">
             {
               this.props.skills.map((skill) => <img style={{width: 'auto', height: '22px'}} src={skill} alt="skill" />)
             }
-          </div>
+          </div> */}
         </div>
       </a>
     )

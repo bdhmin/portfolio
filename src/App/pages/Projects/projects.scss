@@ -91,11 +91,11 @@
   .Projects {
     justify-content: center;
     .projects-content {
-      width: 100vw;
+      width: 70vw;
       align-items: center;
       .project-box {
-        padding: 20px;
-        margin: 10px 55px 0 55px;
+        padding: 10px;
+        margin: 10px 30px 0 30px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -104,6 +104,33 @@
           width: 300px;
           height: auto;
           margin: 0 55px;
+        }
+      }
+
+    }
+  }
+}
+
+
+@media screen and (max-width: 680px) {
+  .Projects {
+    justify-content: center;
+    .projects-content {
+      // width: 70vw;
+      align-items: center;
+      .project-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // width: 80vw;
+        .preview {
+          margin: 0;
+          width: 300px;
+          height: auto;
+        }
+        .description {
+          margin: 10px 24px;
         }
       }
 
