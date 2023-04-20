@@ -1,3 +1,4 @@
+import Sensecape from './project-previews/Sensecape.png'
 import Maintain from './project-previews/Maintain.png'
 import Marathon from './project-previews/Marathon.jpeg'
 import Annota from './project-previews/Annota2.png'
@@ -19,6 +20,7 @@ import Sass from './tech-stack-icons/sass.svg'
 import TypeScript from './tech-stack-icons/typescript.svg'
 
 export const projects = {
+  Sensecape,
   Maintain,
   Marathon,
   Annota,

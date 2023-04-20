@@ -9,8 +9,17 @@ function Projects() {
         <h2>Projects</h2>
 
         <ProjectItem
+          title={'Sensecape'}
+          description={'Multilevel information exploration and sensemaking powered by GPT-4. Externalize your natural exploration path as you dive into topics.'}
+          type={'Creativity Lab'}
+          image={projects.Sensecape}
+          link={'https://creativity.ucsd.edu/ai'}
+          skills={[]}
+        />
+
+        <ProjectItem
           title={'Maintain'}
-          description={'A date-based task-managing desktop app. Maintain steady productivity with tasks that last until you complete them and habits that reappear each day.'}
+          description={'Date-based task-manager. Maintain steady productivity with tasks that last until you complete them and habits that reappear each day.'}
           type={'Personal Project'}
           image={projects.Maintain}
           link={'https://github.com/bdhmin/Maintain'}
@@ -27,14 +36,14 @@ function Projects() {
           skills={[techstack.React, techstack.Javascript, techstack.HTML, techstack.CSS, techstack.Flask, techstack.MongoDB, techstack.Python]}
         />
 
-        {/* <ProjectItem
+        <ProjectItem
           title={'Annota'}
           description={'A platform to learn, understand, and perform the qualitative research process through collaborative hands-on experience.'}
           type={'Tech4Good Lab'}
           image={projects.Annota}
           link={'https://tech4good.soe.ucsc.edu/#/'}
           skills={[techstack.Angular, techstack.TypeScript, techstack.HTML, techstack.Sass, techstack.Firebase]}
-        /> */}
+        />
 
         <ProjectItem
           title={'Gratitude'}
@@ -62,11 +71,13 @@ class ProjectItem extends Component {
   render() {
     return (
       <a className="project-box" href={this.props.link} target="_blank" rel="noreferrer">
-        <img className="preview" src={this.props.image} alt={this.props.title}/>
+        <div className='preview'>
+          <img src={this.props.image} alt={this.props.title}/>
+        </div>
         <div className="description">
           <h3>{this.props.title}</h3>
           <h5 style={{
-            color: this.props.award === 'big' ? '#e4b131' : ''
+            color: this.props.award === 'big' ? '#f19a21' : '',
           }}>{this.props.type}</h5>
           <p>{this.props.description}</p>
 
