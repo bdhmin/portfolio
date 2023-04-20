@@ -14,13 +14,36 @@
 
       // height: 722px;
       display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
+      flex-direction: column;
+      align-items: space-between;
+      justify-content: center;
+      gap: 32px;
 
       .Bio {
-        max-width: 624px;
+        max-width: 424px;
         margin-top: 30px;
+      }
+      .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 12px;
+        font-size: 16px;
+        a {
+          width: fit-content;
+          color: #999794;
+          transition: 0.2s;
+          * {
+            stroke: #999794;
+            transition: 0.2s;
+          }
+        }
+        a:hover {
+          color: #1D1D1D;
+          * {
+            stroke: #1D1D1D;
+          }
+        }
       }
     }
 

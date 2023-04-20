@@ -1,4 +1,5 @@
 import './about.scss';
+import { ReactComponent as NewTabIcon } from '../../../assets/Icons/new-tab.svg';
 // import SelfPortrait from '../../assets/About/Bryan-Wall.jpg';
 
 function About() {
@@ -17,8 +18,9 @@ function About() {
 
           <div className="Bio">
             <p>
-              I’m a fourth-year undergraduate student at <a className="ucsd" href="https://ucsd.edu" target="_blank" rel="noreferrer">UC San Diego</a> pursuing Computer Science. 
-              I am doing research at the <a className="creativity" href="https://creativity.ucsd.edu/" target="_blank" rel="noreferrer">Creativity Lab</a> on building interfaces and systems to improve workflows for productivity.
+              I am a fourth-year undergraduate student at <a className="ucsd" href="https://ucsd.edu" target="_blank" rel="noreferrer">UC San Diego</a> pursuing Computer Science. 
+              I am a part of the <a className="creativity" href="https://creativity.ucsd.edu/" target="_blank" rel="noreferrer">Creativity Lab</a>, where I build systems to improve workflows for productivity.
+              I have been particularly interested in ways to enable greater manipulation and organization of workspaces to better support multi-application workflows.
             </p>
             <p>
               Previously, I was a part of the <a className="t4g" href="https://tech4good.soe.ucsc.edu/#/" target="_blank" rel="noreferrer">Tech4Good Lab</a>, where I developed web applications for social computing research.
@@ -33,6 +35,12 @@ function About() {
             {/* <p>
               Scroll up to see my <b>live status</b>! If you want to learn how I did this, <Link to="/docs/live-status"><u>click here</u></Link>.
             </p> */}
+          </div>
+
+          <div className='links'>
+            <a href="https://github.com/bdhmin/" target="_blank" rel="noreferrer">GitHub <NewTabIcon/></a>
+            <a href="https://www.linkedin.com/in/bryanmin/" target="_blank" rel="noreferrer">LinkedIn <NewTabIcon/></a>
+            <a href="https://twitter.com/bdhmin/" target="_blank" rel="noreferrer">Twitter <NewTabIcon/></a>
           </div>
 
 
