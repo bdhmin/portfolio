@@ -36,8 +36,8 @@ function About() {
             <p>
               I recently graduated from <a className="ucsd" href="https://ucsd.edu" target="_blank" rel="noreferrer">UC San Diego</a> with a B.S. in Computer Science.
               I am part of the <a className="creativity" href="https://creativity.ucsd.edu/" target="_blank" rel="noreferrer">Creativity Lab</a>, where we explore new interaction techniques to support various information tasks.
-              I am broadly interested in exploring ways to <strong>manipulate our information space</strong> to represent information in different ways.
-              I am currently exploring this in the desktop information space domain.
+              I am broadly interested in exploring methods for <strong>manipulating our information space to represent and organize information</strong> in various ways.
+              Currently, I am applying these interests within the domain of desktop information spaces.
             </p>
               {/* I explore ways to improve user productivity within information workflows. */}
             {/* <p>
@@ -61,7 +61,7 @@ function About() {
           </div>
 
           <div className='links'>
-            <a className='email'
+            <p className='email'
               onClick={(event) => {
                 navigator.clipboard.writeText('bdmin@ucsd.edu');
                 setCopied(true);
@@ -90,7 +90,7 @@ function About() {
                 <CheckIcon style={copied ? show : hide}/>
                 <CopyIcon style={copied ? hide : show}/>
               </div>
-            </a>
+            </p>
             <a href="https://github.com/bdhmin/" target="_blank" rel="noreferrer">GitHub <NewTabIcon/></a>
             <a href="https://www.linkedin.com/in/bryanmin/" target="_blank" rel="noreferrer">LinkedIn <NewTabIcon/></a>
             <a href="https://twitter.com/bdhmin/" target="_blank" rel="noreferrer">Twitter <NewTabIcon/></a>

@@ -1,4 +1,3 @@
-import Socials from '../Socials/socials'
 import './footer.scss'
 
 function Footer() {

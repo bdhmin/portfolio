@@ -1,6 +1,5 @@
 import './App.scss';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import NavBar from './components/NavBar/navbar';
 import Home from './pages/Home/home';
 import Timeline from './pages/Timeline/timeline';
 import Footer from './components/Footer/footer';

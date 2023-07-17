@@ -22,11 +22,11 @@
       width: 960px;
       display: flex;
       flex-direction: row;
-      gap: 40px;
+      gap: 50px;
       justify-content: center;
       align-items: center;
       transition: opacity 0.2s, background-color 0.2s;
-      border-radius: 6px;
+      // border-radius: 6px;
 
       .thumbnail {
         min-width: 270px;
@@ -37,13 +37,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        outline: 1px solid #f0edeb;
         // border: cadetblue solid 1px;
       }
       .thumbnail img {
         object-fit: cover;
         width: inherit;
         height: inherit;
-        border-radius: 6px;
+        // border-radius: 6px;
         // display: flex;
         // overflow: hidden;
         // box-shadow: 0px 4px 20px 0px #00000010;
