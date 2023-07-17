@@ -47,7 +47,7 @@ class Home extends Component {
               {(progress) => (
                 <Tween
                   to={{
-                    // opacity: '0',
+                    opacity: '0',
                     filter: 'blur(20px)',
                     transform: 'scale(0.9)',
                   }}

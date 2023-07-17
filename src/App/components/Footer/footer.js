@@ -4,7 +4,7 @@ import './footer.scss'
 function Footer() {
   return (
     <div className="Footer">
-      <Socials />
+      {/* <Socials /> */}
       {/* <span className="msg">정성으로 만든</span> */}
       <span className="cp">Made by Bryan Min</span>
     </div>

@@ -54,14 +54,14 @@ function Projects() {
           skills={[techstack.Angular, techstack.TypeScript, techstack.HTML, techstack.Sass, techstack.Firebase]}
         />
 
-        <ProjectItem
+        {/* <ProjectItem
           title={'Who Would Win?'}
           description={'A League of Legends player statistics comparison web app. Compare two summoners to find who is more likely to win in a match. Uses Riot API.'}
           type={'Personal Project'}
           image={projects.WhoWouldWin}
           link={'https://github.com/bdhmin/WhoWouldWin'}
           skills={[techstack.React, techstack.Javascript, techstack.HTML, techstack.CSS, techstack.Express]}
-        />
+        /> */}
       </div>
     </div>
   )
