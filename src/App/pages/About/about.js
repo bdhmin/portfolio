@@ -61,20 +61,39 @@ function About() {
           </div>
 
           <div className='links'>
-            <a href="https://github.com/bdhmin/" target="_blank" rel="noreferrer">GitHub <NewTabIcon/></a>
-            <a href="https://www.linkedin.com/in/bryanmin/" target="_blank" rel="noreferrer">LinkedIn <NewTabIcon/></a>
-            <a href="https://twitter.com/bdhmin/" target="_blank" rel="noreferrer">Twitter <NewTabIcon/></a>
-            <a onClick={() => {
-              navigator.clipboard.writeText('bdmin@ucsd.edu');
-              setCopied(true);
-              setTimeout(() => {
-                setCopied(false);
-              }, 1000);
-            }} className='email'>bdmin@ucsd.edu <div className='email-copy'>
+            <a className='email'
+              onClick={(event) => {
+                navigator.clipboard.writeText('bdmin@ucsd.edu');
+                setCopied(true);
+                const emailCopy = event.target.querySelector('.email-copy');
+                if (emailCopy) emailCopy.style.opacity = 1;
+                setTimeout(() => {
+                  if (emailCopy) emailCopy.style.opacity = 0;
+                }, 900);
+                setTimeout(() => {
+                  setCopied(false);
+                }, 1000);
+              }}
+              onMouseEnter={(event) => {
+                const emailCopy = event.target.querySelector('.email-copy');
+                if (emailCopy) emailCopy.style.opacity = 1;
+              }}
+              onMouseLeave={(event) => {
+                const emailCopy = event.target.querySelector('.email-copy');
+                if (!copied && emailCopy) {
+                  emailCopy.style.opacity = 0;
+                }
+              }}
+            >bdmin@ucsd.edu <div
+            style={{opacity: 0}}
+            className='email-copy'>
                 <CheckIcon style={copied ? show : hide}/>
                 <CopyIcon style={copied ? hide : show}/>
               </div>
             </a>
+            <a href="https://github.com/bdhmin/" target="_blank" rel="noreferrer">GitHub <NewTabIcon/></a>
+            <a href="https://www.linkedin.com/in/bryanmin/" target="_blank" rel="noreferrer">LinkedIn <NewTabIcon/></a>
+            <a href="https://twitter.com/bdhmin/" target="_blank" rel="noreferrer">Twitter <NewTabIcon/></a>
           </div>
         </div>
 
