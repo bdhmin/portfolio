@@ -18,12 +18,19 @@ function About() {
 
           <div className="Bio">
             <p>
+              I recently graduated from <a className="ucsd" href="https://ucsd.edu" target="_blank" rel="noreferrer">UC San Diego</a> with a B.S. in Computer Science.
+              I am part of the <a className="creativity" href="https://creativity.ucsd.edu/" target="_blank" rel="noreferrer">Creativity Lab</a>, where we explore new interaction techniques to support various information tasks.
+              I am broadly interested in exploring ways to <strong>manipulate our information space</strong> to represent information in different ways.
+              I am currently exploring this in the desktop information space domain.
+            </p>
+              {/* I explore ways to improve user productivity within information workflows. */}
+            {/* <p>
               I am a fourth-year undergraduate student at <a className="ucsd" href="https://ucsd.edu" target="_blank" rel="noreferrer">UC San Diego</a> pursuing Computer Science. 
               I am a part of the <a className="creativity" href="https://creativity.ucsd.edu/" target="_blank" rel="noreferrer">Creativity Lab</a>, where I build systems to improve workflows for productivity.
               I have been particularly interested in ways to enable greater manipulation and organization of workspaces to better support multi-application workflows.
-            </p>
+            </p> */}
             <p>
-              Previously, I was a part of the <a className="t4g" href="https://tech4good.soe.ucsc.edu/#/" target="_blank" rel="noreferrer">Tech4Good Lab</a>, where I developed web applications for social computing research.
+              Previously, I was part of the <a className="t4g" href="https://tech4good.soe.ucsc.edu/#/" target="_blank" rel="noreferrer">Tech4Good Lab</a>, where I developed web applications for social computing research.
             </p>
             {/* <p>
               I discovered my interest in app development for productivity while I developed social computing web apps in professor David T. Lee's lab.

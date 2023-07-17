@@ -22,6 +22,8 @@
   .intro-text {
     position: fixed;
     will-change: transform;
+    // display: flex;
+    // align-items: center;
     .Name {
       font-family: 'lemonde-journal', serif;
       font-weight: 600;
@@ -35,6 +37,7 @@
       margin-top: 30px;
       top: 20vh;
       height: fit-content;
+      text-align: center;
       max-width: 615px;
       word-spacing: 1.6px;
     }
@@ -79,7 +82,6 @@
   position: relative;
   width: 100%;
   height: fit-content;
-  margin-top: -10vh;
   display: flex;
   background-color: white;
   .projects-component {

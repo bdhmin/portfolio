@@ -8,14 +8,14 @@ function Projects() {
       <div className="projects-content">
         <h2>Projects</h2>
 
-        <ProjectItem
+        {/* <ProjectItem
           title={'Sensecape'}
           description={'Multilevel information exploration and sensemaking powered by GPT-4. Externalize your natural exploration path as you dive into topics.'}
           type={'Creativity Lab'}
           image={projects.Sensecape}
           link={'https://creativity.ucsd.edu/ai'}
           skills={[]}
-        />
+        /> */}
 
         <ProjectItem
           title={'Maintain'}
