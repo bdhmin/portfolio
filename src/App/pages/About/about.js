@@ -1,8 +1,24 @@
 import './about.scss';
 import { ReactComponent as NewTabIcon } from '../../../assets/Icons/new-tab.svg';
+import { ReactComponent as CopyIcon } from '../../../assets/Icons/copy.svg';
+import { ReactComponent as CheckIcon } from '../../../assets/Icons/check.svg';
+import { useState } from 'react';
+
 // import SelfPortrait from '../../assets/About/Bryan-Wall.jpg';
 
+const show = {
+  opacity: 1,
+  visibility: 'visible',
+}
+
+const hide = {
+  opacity: 0,
+  visibility: 'hidden',
+}
+
 function About() {
+  const [copied, setCopied] = useState(false);
+
   return (
     <div className="About">
       <div className="AboutBox">
@@ -48,12 +64,20 @@ function About() {
             <a href="https://github.com/bdhmin/" target="_blank" rel="noreferrer">GitHub <NewTabIcon/></a>
             <a href="https://www.linkedin.com/in/bryanmin/" target="_blank" rel="noreferrer">LinkedIn <NewTabIcon/></a>
             <a href="https://twitter.com/bdhmin/" target="_blank" rel="noreferrer">Twitter <NewTabIcon/></a>
+            <a onClick={() => {
+              navigator.clipboard.writeText('bdmin@ucsd.edu');
+              setCopied(true);
+              setTimeout(() => {
+                setCopied(false);
+              }, 1000);
+            }} className='email'>bdmin@ucsd.edu <div className='email-copy'>
+                <CheckIcon style={copied ? show : hide}/>
+                <CopyIcon style={copied ? hide : show}/>
+              </div>
+            </a>
           </div>
-
-
-
         </div>
-        
+
         <div className="More">
           {/* <div className="Socials">
             <div className="Links">
