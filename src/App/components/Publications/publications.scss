@@ -201,7 +201,8 @@
         // width: 80vw;
         .thumbnail {
           margin: 20px;
-          width: 300px;
+          min-width: 270px;
+          width: 270px;
           height: auto;
         }
         .description {

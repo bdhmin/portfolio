@@ -91,6 +91,7 @@ function About() {
                 <CopyIcon style={copied ? hide : show}/>
               </div>
             </p>
+            {/* <br/> */}
             <a href="https://github.com/bdhmin/" target="_blank" rel="noreferrer">GitHub <NewTabIcon/></a>
             <a href="https://www.linkedin.com/in/bryanmin/" target="_blank" rel="noreferrer">LinkedIn <NewTabIcon/></a>
             <a href="https://twitter.com/bdhmin/" target="_blank" rel="noreferrer">Twitter <NewTabIcon/></a>
