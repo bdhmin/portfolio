@@ -45,9 +45,9 @@ function About() {
               I am a part of the <a className="creativity" href="https://creativity.ucsd.edu/" target="_blank" rel="noreferrer">Creativity Lab</a>, where I build systems to improve workflows for productivity.
               I have been particularly interested in ways to enable greater manipulation and organization of workspaces to better support multi-application workflows.
             </p> */}
-            <p>
+            {/* <p>
               Previously, I was part of the <a className="t4g" href="https://tech4good.soe.ucsc.edu/#/" target="_blank" rel="noreferrer">Tech4Good Lab</a>, where I developed web applications for social computing research.
-            </p>
+            </p> */}
             {/* <p>
               I discovered my interest in app development for productivity while I developed social computing web apps in professor David T. Lee's lab.
               I was introduced to many differnt uses of online platforms to support growth in communities.
