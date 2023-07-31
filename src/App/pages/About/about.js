@@ -34,8 +34,8 @@ function About() {
 
           <div className="Bio">
             <p>
-              I recently graduated from <a className="ucsd" href="https://ucsd.edu" target="_blank" rel="noreferrer">UC San Diego</a> with a B.S. in Computer Science.
-              I am part of the <a className="creativity" href="https://creativity.ucsd.edu/" target="_blank" rel="noreferrer">Creativity Lab</a>, where we explore new interaction techniques to support various information tasks.
+              I recently graduated from <a className="link ucsd" href="https://ucsd.edu" target="_blank" rel="noreferrer">UC San Diego</a> with a B.S. in Computer Science.
+              I am part of the <a className="link creativity" href="https://creativity.ucsd.edu/" target="_blank" rel="noreferrer">Creativity Lab</a>, where we explore new interaction techniques to support various information tasks.
               I am broadly interested in exploring methods for <strong>manipulating our information space to represent and organize information</strong> in various ways.
               Currently, I am applying these interests within the domain of desktop information spaces.
             </p>

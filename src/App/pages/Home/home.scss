@@ -10,7 +10,6 @@
 
   
 }
-
 .Intro {
   // border: solid 1px red;
   width: 100vw;
@@ -102,23 +101,28 @@
   }
 }
 
-.t4g {
+.link {
   font-weight: 800;
   transition: 0.2s;
 }
+
 .t4g:hover {
   font-weight: 400;
   color: #6ea6fb;
-}
-
-.creativity {
-  font-weight: 800;
-  transition: 0.2s;
 }
 .creativity:hover {
   font-weight: 400;
   color: #9c9a99;
 }
+.kixlab:hover {
+  font-weight: 400;
+  color: rgb(237, 119, 47);
+}
+.ucsd:hover {
+  font-weight: 400;
+  color: #00629B;
+}
+
 
 @media screen and (max-width: 1080px) {
   .Intro {
