@@ -69,7 +69,7 @@
       top: -150px;
       left: 0;
       width: 100%;
-      height: calc(100% + 20vh);
+      height: calc(100% + 40vh);
       background-color: #ffffff;
       transform: skewY(4deg);
     }
@@ -77,6 +77,10 @@
 }
 #about-ends {
   content:'';
+}
+
+.publications-section {
+  z-index: 4;
 }
 
 .projects-section {
