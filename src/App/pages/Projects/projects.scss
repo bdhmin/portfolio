@@ -115,11 +115,13 @@
       .project-box {
         // border: solid blue 1px;
         width: 100%;
+        min-width: 100%;
         height: fit-content;
         padding: 0;
         margin: 0;
         display: flex;
         justify-content: center;
+        gap: 0px;
         .preview {
           min-width: 270px;
           width: 270px;
@@ -127,7 +129,8 @@
           margin: 20px;
         }
         .description {
-          width: auto;
+          width: 100%;
+          // width: auto;
           margin: 20px;
         }
       }
@@ -136,27 +139,27 @@
   }
 }
 
-
 @media screen and (max-width: 680px) {
   .Projects {
     justify-content: center;
     .projects-content {
-      // width: 70vw;
-      // align-items: center;
+      width: 90vw;
       .project-box {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 12px;
+        margin-bottom: 20px;
         // width: 80vw;
         .preview {
-          margin: 20px;
+          margin: 0 20px 12px;
           min-width: 270px;
-          width: 270px;
+          width: 100%;
           height: auto;
         }
         .description {
+          width: 100%;
           margin: 0 24px;
         }
       }

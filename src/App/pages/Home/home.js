@@ -4,7 +4,7 @@ import { Tween } from 'react-gsap';
 import './home.scss';
 import About from '../About/about';
 import Projects from '../Projects/projects';
-import Publications from '../../components/Publications/publications';
+import Publications from '../../pages/Publications/publications';
 const axios = require('axios');
 
 class Home extends Component {

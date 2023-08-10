@@ -31,6 +31,7 @@
       font-size: 72px;
       margin-top: 40vh;
       cursor: default;
+      z-index: 0;
     }
   
     .Greeting {
@@ -68,7 +69,7 @@
       top: -150px;
       left: 0;
       width: 100%;
-      height: calc(100% + 10vh);
+      height: calc(100% + 20vh);
       background-color: #ffffff;
       transform: skewY(4deg);
     }

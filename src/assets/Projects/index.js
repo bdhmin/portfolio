@@ -1,3 +1,4 @@
+import Masonview from './project-previews/Masonview.jpg'
 import Sensecape from './project-previews/Sensecape.png'
 import Maintain from './project-previews/Maintain.png'
 import Marathon from './project-previews/Marathon.jpeg'
@@ -20,6 +21,7 @@ import Sass from './tech-stack-icons/sass.svg'
 import TypeScript from './tech-stack-icons/typescript.svg'
 
 export const projects = {
+  Masonview,
   Sensecape,
   Maintain,
   Marathon,
