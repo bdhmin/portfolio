@@ -18,6 +18,7 @@
       flex-direction: column;
       align-items: space-between;
       justify-content: center;
+      // margin: 0 20px;
       gap: 32px;
 
       .Bio {
@@ -160,7 +161,6 @@
       display: flex;
       flex-direction: column;
       margin: 0 60px 140px 60px;
-
       .More {
         margin-top: 40px;
       
@@ -181,15 +181,16 @@
   }
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 680px) {
   .About {
     // TEMPORARY BORDER
     
+    width: 90vw;
     .AboutBox {
-      // border: solid 1px pink;
-      
-      margin: 0 30px 140px 30px;
-      // width: 80vw;
+      margin: 0 0 140px;
+      .Content {
+        margin: 0;
+      }
 
       .Content {
         .Bio {
@@ -203,26 +204,26 @@
   }
 }
 
-@media screen and (max-width: 480px) {
-  .About {
+// @media screen and (max-width: 480px) {
+//   .About {
 
-    .AboutBox {
-      .More {
-        margin-top: 40px;
+//     .AboutBox {
+//       .More {
+//         margin-top: 40px;
       
-        .Portrait {
-          .PortraitImage {
-            width: 85.61236623067776vw;
-            height: 38.96432818073722vw;
-          }
-          .PortraitImage img {
-            width: 85.61236623067776vw;
-            height: auto;
-            // margin: -1.936108422071636vw 0 0 0;
-          }
-        }
-      }
+//         .Portrait {
+//           .PortraitImage {
+//             width: 85.61236623067776vw;
+//             height: 38.96432818073722vw;
+//           }
+//           .PortraitImage img {
+//             width: 85.61236623067776vw;
+//             height: auto;
+//             // margin: -1.936108422071636vw 0 0 0;
+//           }
+//         }
+//       }
 
-    }
-  }
-}
+//     }
+//   }
+// }
