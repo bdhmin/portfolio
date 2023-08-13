@@ -2,7 +2,7 @@ import { projects } from '../../../assets/Projects'
 
 export const publications = [
   {
-    title: 'Masonview',
+    title: 'Demonstration of Masonview',
     subtitle: 'Content-Driven Viewport Management',
     authors: ['Bryan Min', 'Matthew T Beaudouin-Lafon', 'Sangho Suh', 'Haijun Xia'],
     venue: 'UIST 2023 Demos',
