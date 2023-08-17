@@ -110,23 +110,28 @@
   font-weight: 800;
   transition: 0.2s;
 }
+.link:hover {
+  font-weight: 400;
+}
 
 .t4g:hover {
-  font-weight: 400;
   color: #6ea6fb;
 }
 .creativity:hover {
-  font-weight: 400;
   color: #9c9a99;
 }
 .kixlab:hover {
-  font-weight: 400;
   color: rgb(237, 119, 47);
 }
 .ucsd:hover {
-  font-weight: 400;
   color: #00629B;
 }
+.masonview:hover {
+  color: #f0b051;
+}
+
+// I like this color
+// color: #5186f0;
 
 
 @media screen and (max-width: 1080px) {
