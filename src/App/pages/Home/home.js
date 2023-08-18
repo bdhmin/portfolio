@@ -59,7 +59,7 @@ class Home extends Component {
                       <div className="Name">Bryan Min</div>
                       <div className="Greeting">
                         <h6>HCI research at the <a className="link creativity" href="https://creativity.ucsd.edu/" target="_blank" rel="noreferrer">Creativity Lab</a>. Currently at <a className="link kixlab" href="https://www.kixlab.org/" target="_blank" rel="noreferrer">KIXLAB</a>.</h6>
-                        <h6>Demonstrating <a className='link masonview'>Masonview</a> at UIST 2023. October 29, 2023.</h6>
+                        <h6>Demonstrating <span className='link masonview'>Masonview</span> at UIST 2023. October 29, 2023.</h6>
                         {/* <h6>Information management. HCI research at the <a className="creativity" href="https://creativity.ucsd.edu/" target="_blank" rel="noreferrer">Creativity Lab</a>.</h6> */}
                         {/* <h6>Computer Science at <a className="ucsd" href="https://ucsd.edu" target="_blank" rel="noreferrer">UC San Diego</a>. HCI research at the <a className="creativity" href="https://creativity.ucsd.edu/" target="_blank" rel="noreferrer">Creativity Lab</a>.</h6> */}
                         {/* <h6>Webdev, HCI research, and minimalism at UCSD. Currently, I'm an Undergraduate Research Assistant and Lead Developer at the <a className="t4g" href="https://tech4good.soe.ucsc.edu/#/" target="_blank" rel="noreferrer">Tech4Good Lab</a>.</h6> */}
