@@ -50,7 +50,7 @@ function Projects() {
           description={'The platform for creating collective thank you cards. Send collective thank you card decks to express gratitude and give back to your community.'}
           type={'Tech4Good Lab'}
           image={projects.Gratitude}
-          link={'https://tech4good.soe.ucsc.edu/#/'}
+          link={'https://gratitude-ucsc.web.app/#/'}
           skills={[techstack.Angular, techstack.TypeScript, techstack.HTML, techstack.Sass, techstack.Firebase]}
         />
 
