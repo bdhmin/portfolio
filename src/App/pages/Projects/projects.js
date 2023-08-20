@@ -18,15 +18,6 @@ function Projects() {
         /> */}
 
         <ProjectItem
-          title={'Maintain'}
-          description={'Date-based task-manager. Maintain steady productivity with tasks that last until you complete them and habits that reappear each day.'}
-          type={'Personal Project'}
-          image={projects.Maintain}
-          link={'https://github.com/bdhmin/Maintain'}
-          skills={[techstack.Electron, techstack.Angular, techstack.TypeScript, techstack.HTML, techstack.Sass, techstack.Firebase]}
-        />
-
-        <ProjectItem
           title={'Marathon.'}
           description={'A social goal-tracking app. Keep yourself and others accountable and achieve your dream goals with your self-created community supporting your entire journey.'}
           award={'big'}
@@ -34,6 +25,15 @@ function Projects() {
           image={projects.Marathon}
           link={'https://devpost.com/software/marathon-gsz8to'}
           skills={[techstack.React, techstack.Javascript, techstack.HTML, techstack.CSS, techstack.Flask, techstack.MongoDB, techstack.Python]}
+        />
+
+        <ProjectItem
+          title={'Maintain'}
+          description={'Date-based task-manager. Maintain steady productivity with tasks that last until you complete them and habits that reappear each day.'}
+          type={'Personal Project'}
+          image={projects.Maintain}
+          link={'https://github.com/bdhmin/Maintain'}
+          skills={[techstack.Electron, techstack.Angular, techstack.TypeScript, techstack.HTML, techstack.Sass, techstack.Firebase]}
         />
 
         <ProjectItem
