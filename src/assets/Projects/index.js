@@ -1,3 +1,4 @@
+import ChoiceMates from './project-previews/ChoiceMates.jpg'
 import Masonview from './project-previews/Masonview.jpg'
 import Sensecape from './project-previews/Sensecape.png'
 import Maintain from './project-previews/Maintain.png'
@@ -5,6 +6,7 @@ import Marathon from './project-previews/Marathon.jpeg'
 import Annota from './project-previews/Annota2.png'
 import Gratitude from './project-previews/Gratitude.png'
 import WhoWouldWin from './project-previews/WhoWouldWin.png'
+import ComingSoon from './project-previews/ComingSoon.png'
 
 import Angular from './tech-stack-icons/angular.svg'
 import CSS from './tech-stack-icons/css.svg'
@@ -21,13 +23,15 @@ import Sass from './tech-stack-icons/sass.svg'
 import TypeScript from './tech-stack-icons/typescript.svg'
 
 export const projects = {
+  ChoiceMates,
   Masonview,
   Sensecape,
   Maintain,
   Marathon,
   Annota,
   Gratitude,
-  WhoWouldWin
+  WhoWouldWin,
+  ComingSoon,
 }
 
 export const techstack = {
