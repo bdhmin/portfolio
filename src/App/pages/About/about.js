@@ -3,6 +3,7 @@ import { ReactComponent as NewTabIcon } from '../../../assets/Icons/new-tab.svg'
 import { ReactComponent as CopyIcon } from '../../../assets/Icons/copy.svg';
 import { ReactComponent as CheckIcon } from '../../../assets/Icons/check.svg';
 import { useState } from 'react';
+import { Tag } from '../../components/Tag/tag';
 
 // import SelfPortrait from '../../assets/About/Bryan-Wall.jpg';
 
@@ -34,9 +35,13 @@ function About() {
 
           <div className="Bio">
             <p>
-              I recently graduated from <a className="link ucsd" href="https://ucsd.edu" target="_blank" rel="noreferrer">UC San Diego</a> with a B.S. in Computer Science.
-              I am part of the <a className="link creativity" href="https://creativity.ucsd.edu/" target="_blank" rel="noreferrer">Creativity Lab</a>, where we explore new interaction techniques to support various information tasks.
-              I am broadly interested in exploring methods for <strong>manipulating our information space</strong> to represent and organize information through novel techniques, with the goal of enhancing productivity in knowledge work.
+              I explore ways to enable users to <strong>customize software interfaces</strong> for easier information layout and management.
+            </p>
+            <p>
+              I an Assistant Researcher at the <Tag name="creativity">Creativity Lab</Tag>, currently working on <Tag name="masonview">Masonview</Tag>, which lets users flexibly manipulate the representation of content on their desktop.
+            </p>
+            <p>
+              I recently graduated from <Tag name="ucsd">UC San Diego</Tag> with a B.S. in Computer Science.
             </p>
               {/* I explore ways to improve user productivity within information workflows. */}
             {/* <p>
@@ -74,18 +79,16 @@ function About() {
                 }, 1000);
               }}
               onMouseEnter={(event) => {
-                const emailCopy = event.target.querySelector('.email-copy');
+                const emailCopy = event.target.querySelector('.email-copy') || event.target.parentElement;
                 if (emailCopy) emailCopy.style.opacity = 1;
               }}
               onMouseLeave={(event) => {
-                const emailCopy = event.target.querySelector('.email-copy');
-                if (!copied && emailCopy) {
-                  emailCopy.style.opacity = 0;
-                }
+                const emailCopy = event.target.querySelector('.email-copy') || event.target.parentElement;
+                if (!copied) emailCopy.style.opacity = 0;
               }}
-            >bdmin@ucsd.edu <div
-            style={{opacity: 0}}
-            className='email-copy'>
+            >
+              bdmin@ucsd.edu&nbsp;
+              <div className='email-copy'>
                 <CheckIcon style={copied ? show : hide}/>
                 <CopyIcon style={copied ? hide : show}/>
               </div>

@@ -53,6 +53,7 @@
           width: fit-content;
           cursor: pointer;
           .email-copy {
+            opacity: 0;
             position: relative;
             transition: 0.2s;
             * {

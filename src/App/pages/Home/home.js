@@ -5,6 +5,7 @@ import './home.scss';
 import About from '../About/about';
 import Projects from '../Projects/projects';
 import Publications from '../../pages/Publications/publications';
+import { Tag } from '../../components/Tag/tag';
 const axios = require('axios');
 
 class Home extends Component {
@@ -58,8 +59,8 @@ class Home extends Component {
                     <div className="intro-text">
                       <div className="Name">Bryan Min</div>
                       <div className="Greeting">
-                        <h6>HCI research at the <a className="link creativity" href="https://creativity.ucsd.edu/" target="_blank" rel="noreferrer">Creativity Lab</a>.</h6>
-                        <h6>Demonstrating <a className='link masonview' href='https://programs.sigchi.org/uist/2023/program/content/127104/' target="_blank" rel="noreferrer">Masonview</a> at UIST 2023. October 30, 2023.</h6>
+                        <h6>HCI research at the <Tag name="creativity">Creativity Lab</Tag>.</h6>
+                        <h6>Demonstrating <Tag name="masonview-uist23">Masonview</Tag> at UIST 2023. October 30, 2023.</h6>
                         {/* Currently at <a className="link kixlab" href="https://www.kixlab.org/" target="_blank" rel="noreferrer">KIXLAB</a>. */}
                         {/* <h6>Information management. HCI research at the <a className="creativity" href="https://creativity.ucsd.edu/" target="_blank" rel="noreferrer">Creativity Lab</a>.</h6> */}
                         {/* <h6>Computer Science at <a className="ucsd" href="https://ucsd.edu" target="_blank" rel="noreferrer">UC San Diego</a>. HCI research at the <a className="creativity" href="https://creativity.ucsd.edu/" target="_blank" rel="noreferrer">Creativity Lab</a>.</h6> */}

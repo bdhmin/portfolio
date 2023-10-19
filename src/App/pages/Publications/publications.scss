@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex;
-    gap: 30px;
+    gap: 0px;
     .publication-item {
       // border: red solid 1px;
       // margin: 40px 0;
@@ -193,6 +193,7 @@
     justify-content: center;
     .publications-content {
       width: 90vw;
+      gap: 30px;
       .publication-item {
         display: flex;
         flex-direction: column;
