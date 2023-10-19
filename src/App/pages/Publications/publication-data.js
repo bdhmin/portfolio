@@ -13,16 +13,8 @@ export const publications = [
       },
       {
         type: 'Paper',
-        link: 'https://arxiv.org/pdf/2310.01331.pdf',
+        link: `${process.env.PUBLIC_URL}/papers/choicemates-arxiv.pdf`,
       },
-      // {
-      //   type: 'Video',
-      //   link: 'https://youtu.be/MIfhunAwZew',
-      // },
-      // {
-      //   type: 'Preview',
-      //   link: 'https://youtu.be/X3cpRVGuC2w',
-      // },
     ],
     thumbnail: projects.ChoiceMates,
     award: '',
@@ -40,7 +32,7 @@ export const publications = [
       },
       {
         type: 'Paper',
-        link: 'https://creativity.ucsd.edu/papers/masonview.pdf',
+        link: `${process.env.PUBLIC_URL}/papers/masonview-demo-uist23.pdf`,
       },
       {
         type: 'Video',
@@ -71,7 +63,7 @@ export const publications = [
       },
       {
         type: 'Paper',
-        link: 'https://arxiv.org/pdf/2305.11483.pdf',
+        link: `${process.env.PUBLIC_URL}/papers/sensecape-arxiv.pdf`,
       },
       {
         type: 'Video',

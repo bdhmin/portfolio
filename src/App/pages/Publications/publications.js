@@ -43,7 +43,7 @@ function PublicationItem({title, subtitle, authors, venue, resources, thumbnail,
           {
             resources.length === 0 ?
             <p>Coming Soon</p> :
-            resources.map(resource => (<a key={resource.type} style={{pointerEvents: ''}} href={resource.link} target="_blank">{resource.type}</a>))
+            resources.map(resource => (<a key={resource.type} style={{pointerEvents: ''}} href={resource.link} target="_blank" rel={`${resource.type === 'Paper' ? 'noopener' : ''} noreferrer`}>{resource.type}</a>))
           }
         </div>
       </div>
