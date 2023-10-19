@@ -10,7 +10,7 @@ export default function Publications() {
           publications.map(publication => (
             <PublicationItem {...publication}/>
           ))
-        }
+        }a
       </div>
     </div>
   )
@@ -43,7 +43,7 @@ function PublicationItem({title, subtitle, authors, venue, resources, thumbnail,
           {
             resources.length === 0 ?
             <p>Coming Soon</p> :
-            resources.map(resource => (<a key={resource.type} style={{pointerEvents: ''}} href={resource.link}>{resource.type}</a>))
+            resources.map(resource => (<a key={resource.type} style={{pointerEvents: ''}} href={resource.link} target="_blank">{resource.type}</a>))
           }
         </div>
       </div>
