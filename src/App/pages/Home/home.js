@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { Controller, Scene } from 'react-scrollmagic';
 import { Tween } from 'react-gsap';
 import './home.scss';
-import About from '../About/about';
-import Projects from '../Projects/projects';
-import Publications from '../../pages/Publications/publications';
-import { Tag } from '../../components/Tag/tag';
+import About from '../about/about';
+import Projects from '../projects/projects';
+import Publications from '../publications/publications';
+import { Tag } from '../../components/tag/tag';
 const axios = require('axios');
 
 class Home extends Component {

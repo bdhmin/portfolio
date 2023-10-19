@@ -1,4 +1,4 @@
-import { projects } from '../../../assets/Projects'
+import { projects } from '../../../assets/projects'
 
 export const publications = [
   {

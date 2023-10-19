@@ -10,7 +10,7 @@ export default function Publications() {
           publications.map(publication => (
             <PublicationItem {...publication}/>
           ))
-        }a
+        }
       </div>
     </div>
   )

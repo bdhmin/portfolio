@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './projects.scss';
-import { projects, techstack } from '../../../assets/Projects'
+import { projects } from '../../../assets/projects'
 
 function Projects() {
   return (
@@ -24,7 +24,6 @@ function Projects() {
           type={'SD Hacks 2022 Winner'}
           image={projects.Marathon}
           link={'https://devpost.com/software/marathon-gsz8to'}
-          skills={[techstack.React, techstack.Javascript, techstack.HTML, techstack.CSS, techstack.Flask, techstack.MongoDB, techstack.Python]}
         />
 
         <ProjectItem
@@ -33,7 +32,6 @@ function Projects() {
           type={'Personal Project'}
           image={projects.Maintain}
           link={'https://github.com/bdhmin/Maintain'}
-          skills={[techstack.Electron, techstack.Angular, techstack.TypeScript, techstack.HTML, techstack.Sass, techstack.Firebase]}
         />
 
         <ProjectItem
@@ -42,7 +40,6 @@ function Projects() {
           type={'Tech4Good Lab'}
           image={projects.Annota}
           link={'https://tech4good.soe.ucsc.edu/#/'}
-          skills={[techstack.Angular, techstack.TypeScript, techstack.HTML, techstack.Sass, techstack.Firebase]}
         />
 
         <ProjectItem
@@ -51,7 +48,6 @@ function Projects() {
           type={'Tech4Good Lab'}
           image={projects.Gratitude}
           link={'https://gratitude-ucsc.web.app/#/'}
-          skills={[techstack.Angular, techstack.TypeScript, techstack.HTML, techstack.Sass, techstack.Firebase]}
         />
 
         {/* <ProjectItem
@@ -60,7 +56,6 @@ function Projects() {
           type={'Personal Project'}
           image={projects.WhoWouldWin}
           link={'https://github.com/bdhmin/WhoWouldWin'}
-          skills={[techstack.React, techstack.Javascript, techstack.HTML, techstack.CSS, techstack.Express]}
         /> */}
       </div>
     </div>
@@ -80,12 +75,6 @@ class ProjectItem extends Component {
             color: this.props.award === 'big' ? '#f19a21' : '',
           }}>{this.props.type}</h5>
           <p>{this.props.description}</p>
-
-          {/* <div className="skillset">
-            {
-              this.props.skills.map((skill) => <img style={{width: 'auto', height: '22px'}} src={skill} alt="skill" />)
-            }
-          </div> */}
         </div>
       </a>
     )

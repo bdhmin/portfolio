@@ -1,9 +1,9 @@
 import './about.scss';
-import { ReactComponent as NewTabIcon } from '../../../assets/Icons/new-tab.svg';
-import { ReactComponent as CopyIcon } from '../../../assets/Icons/copy.svg';
-import { ReactComponent as CheckIcon } from '../../../assets/Icons/check.svg';
+import { ReactComponent as NewTabIcon } from '../../../assets/icons/new-tab.svg';
+import { ReactComponent as CopyIcon } from '../../../assets/icons/copy.svg';
+import { ReactComponent as CheckIcon } from '../../../assets/icons/check.svg';
 import { useState } from 'react';
-import { Tag } from '../../components/Tag/tag';
+import { Tag } from '../../components/tag/tag';
 
 // import SelfPortrait from '../../assets/About/Bryan-Wall.jpg';
 
