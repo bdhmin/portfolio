@@ -22,16 +22,16 @@
       width: 920px;
       display: flex;
       flex-direction: row;
-      gap: 50px;
+      gap: 40px;
       justify-content: center;
       align-items: center;
       transition: opacity 0.2s, background-color 0.2s;
       // border-radius: 6px;
 
       .thumbnail {
-        min-width: 270px;
-        width: 270px;
-        height: 160px;
+        min-width: 240px;
+        width: 240px;
+        height: 140px;
         overflow: hidden;
         // border-radius: 6px;
         display: flex;
@@ -68,7 +68,6 @@
           }
           .note {
             font-style: italic;
-            color: #000000;
           }
           p {
             margin: 0;
@@ -81,25 +80,25 @@
           flex-direction: row;
           p {
             margin-left: 15px;
-            margin-bottom: 5px;
+            margin-bottom: 0px;
           }
         }
         h5 {
-          font-size: 20px;
+          // font-size: 20px;
           font-weight: 400;
           line-height: 1.2em;
-          margin-bottom: 5px;
+          margin-bottom: 0px;
         }
         p {
-          margin-top: 10px;
+          margin-top: 0px;
           line-height: 1.3em;
         }
         .resources {
           display: flex;
-          gap: 12px;
+          gap: 14px;
           a {
             width: fit-content;
-            font-size: 14px;
+            // font-size: 14px;
             color: #999794;
             transition: 0.2s;
             * {
@@ -120,13 +119,6 @@
             padding: 0;
           }
         }
-        .skillset {
-          display: flex;
-          flex-direction: row;
-          position: absolute;
-          bottom: 10px;
-          gap: 18px;
-        }
       }
     }
     // .project-box:hover {
@@ -137,18 +129,6 @@
     // }
 
   }
-}
-
-.skill {
-  font-size: 14px;
-  padding: 5px 10px;
-  border-radius: 12px;
-  background-color: #e6e3e0;
-  background-color: #f19a21;
-}
-
-.skill + .skill {
-  margin-left: 50px;
 }
 
 @media screen and (max-width: 1080px) {
@@ -170,9 +150,9 @@
         justify-content: center;
         gap: 0px;
         .thumbnail {
-          min-width: 270px;
-          width: 270px;
-          height: auto;
+          min-width: 240px;
+          width: 240px;
+          height: 140px;
           margin: 20px;
         }
         .description {
@@ -203,7 +183,7 @@
         // width: 80vw;
         .thumbnail {
           margin: 0 20px 12px;
-          min-width: 270px;
+          min-width: 240px;
           width: 100%;
           height: auto;
         }

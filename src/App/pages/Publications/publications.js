@@ -5,7 +5,7 @@ export default function Publications() {
   return (
     <div className="publications">
       <div className="publications-content">
-        <h2>Publications</h2>
+        <h2>Publications & Preprints</h2>
         {
           publications.map(publication => (
             <PublicationItem {...publication}/>

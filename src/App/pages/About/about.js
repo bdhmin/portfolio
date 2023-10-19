@@ -43,6 +43,9 @@ function About() {
             <p>
               I recently graduated from <Tag name="ucsd">UC San Diego</Tag> with a B.S. in Computer Science.
             </p>
+            <p>
+              If you'd like to chat please feel free to email me!
+            </p>
               {/* I explore ways to improve user productivity within information workflows. */}
             {/* <p>
               I am a fourth-year undergraduate student at <a className="ucsd" href="https://ucsd.edu" target="_blank" rel="noreferrer">UC San Diego</a> pursuing Computer Science. 

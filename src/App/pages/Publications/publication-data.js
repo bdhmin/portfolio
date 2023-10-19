@@ -5,7 +5,7 @@ export const publications = [
     title: 'ChoiceMates',
     subtitle: 'Supporting Unfamiliar Online Decision-Making with Multi-Agent Conversational Interactions',
     authors: ['Jeongeon Park', 'Bryan Min', 'Xiaojuan Ma', 'Juho Kim'],
-    venue: 'arXiv',
+    venue: 'arXiv (October 2023)',
     resources: [
       {
         type: 'DOI',

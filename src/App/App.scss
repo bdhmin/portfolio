@@ -49,7 +49,7 @@ a:hover, a:visited, a:link, a:active {
 
 h1 {
   font-family: 'lemonde-journal', serif;
-  font-size: 64px;
+  font-size: 48px;
   font-weight: 600;
 }
 
@@ -62,7 +62,7 @@ h2 {
 
 h3 {
   font-family: 'lemonde-journal', serif;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 38px;
   line-height: 1.2em;
@@ -71,7 +71,7 @@ h3 {
 
 h4 {
   // font-family: 'lemonde-journal', serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 1.5em;
   margin: 0;
@@ -87,7 +87,7 @@ h5 {
 
 h6 {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.2em;
   padding: 10px 0;
   margin: 0;
@@ -96,8 +96,12 @@ h6 {
 p {
   font-weight: 400;
   // font-size: 1.3vw;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.75em;
+}
+
+a {
+  font-size: 14px;
 }
 
 /*

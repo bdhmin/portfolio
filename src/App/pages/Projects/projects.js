@@ -6,7 +6,7 @@ function Projects() {
   return (
     <div className="Projects">
       <div className="projects-content">
-        <h2>Projects</h2>
+        <h2>Past Projects</h2>
 
         {/* <ProjectItem
           title={'Sensecape'}

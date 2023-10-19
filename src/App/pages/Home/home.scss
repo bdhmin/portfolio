@@ -20,6 +20,7 @@
   background-color: #FAFAFA;
 
   .intro-text {
+    width: 100vw;
     position: fixed;
     will-change: transform;
     // display: flex;
@@ -39,7 +40,6 @@
       top: 20vh;
       height: fit-content;
       text-align: center;
-      max-width: 615px;
       word-spacing: 1.6px;
     }
   }
@@ -116,9 +116,6 @@
     .Name {
       font-size: 11.8vw;
     }
-    .Greeting {
-      width: 56vw;
-    }
   }
   
 }
@@ -129,12 +126,6 @@
     .intro-text {
       .Name {
         font-size: 14vw;
-      }
-      .Greeting {
-        width: 80vw;
-        h6 {
-          font-size: 16px;
-        }
       }
     }
   }

@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex;
-    gap: 30px;
+    gap: 10px;
     .project-box {
       // border: red solid 1px;
       // margin: 40px 0;
@@ -22,16 +22,16 @@
       width: 920px;
       display: flex;
       flex-direction: row;
-      gap: 50px;
+      gap: 40px;
       justify-content: center;
       align-items: center;
       transition: opacity 0.2s, background-color 0.2s;
       // border-radius: 7px;
 
       .preview {
-        min-width: 270px;
-        width: 270px;
-        height: 160px;
+        min-width: 240px;
+        width: 240px;
+        height: 140px;
         overflow: hidden;
         // border-radius: 6px;
         display: flex;
@@ -123,9 +123,9 @@
         justify-content: center;
         gap: 0px;
         .preview {
-          min-width: 270px;
-          width: 270px;
-          height: auto;
+          min-width: 240px;
+          width: 240px;
+          height: 140px;
           margin: 20px;
         }
         .description {
@@ -154,7 +154,7 @@
         // width: 80vw;
         .preview {
           margin: 0 20px 12px;
-          min-width: 270px;
+          min-width: 240px;
           width: 100%;
           height: auto;
         }
