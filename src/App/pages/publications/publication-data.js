@@ -2,6 +2,25 @@ import { projects } from '../../../assets/projects'
 
 export const publications = [
   {
+    title: 'Structured Generation and Exploration of Design Space with Large Language Models for Human-AI Co-Creation',
+    subtitle: '',
+    authors: ['Sangho Suh', 'Meng Chen', 'Bryan Min', 'Toby Jia-Jun Li', 'Haijun Xia'],
+    venue: 'arXiv (October 2023)',
+    resources: [
+      {
+        type: 'DOI',
+        link: 'https://doi.org/10.48550/arXiv.2310.12953',
+      },
+      {
+        type: 'Paper',
+        link: `${process.env.PUBLIC_URL}/papers/luminate-arxiv.pdf`,
+      },
+    ],
+    thumbnail: projects.Luminate,
+    award: '',
+    note: ''
+  },
+  {
     title: 'ChoiceMates',
     subtitle: 'Supporting Unfamiliar Online Decision-Making with Multi-Agent Conversational Interactions',
     authors: ['Jeongeon Park', 'Bryan Min', 'Xiaojuan Ma', 'Juho Kim'],
