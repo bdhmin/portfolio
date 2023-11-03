@@ -67,7 +67,7 @@ export const publications = [
       },
     ],
     thumbnail: projects.Masonview,
-    award: '',
+    award: 'Best Demo Honorable Mention',
     note: ''
   },
   {
