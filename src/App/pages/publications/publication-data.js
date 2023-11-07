@@ -78,11 +78,11 @@ export const publications = [
     resources: [
       {
         type: 'DOI',
-        link: 'https://doi.org/10.48550/arXiv.2305.11483',
+        link: 'https://doi.org/10.1145/3586183.3606756',
       },
       {
         type: 'Paper',
-        link: `${process.env.PUBLIC_URL}/papers/sensecape-arxiv.pdf`,
+        link: `${process.env.PUBLIC_URL}/papers/sensecape.pdf`,
       },
       {
         type: 'Video',

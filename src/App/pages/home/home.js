@@ -60,7 +60,7 @@ class Home extends Component {
                       <div className="Name">Bryan Min</div>
                       <div className="Greeting">
                         <h6>HCI research at the <Tag name="creativity">Creativity Lab</Tag>.</h6>
-                        <h6>Demonstrating <Tag name="masonview-uist23">Masonview</Tag> at UIST 2023. October 30, 2023.</h6>
+                        {/* <h6>Demonstrating <Tag name="masonview-uist23">Masonview</Tag> at UIST 2023. October 30, 2023.</h6> */}
                         <h6><i>Seeking Fall 2024 PhD Programs!</i></h6>
                         {/* Currently at <a className="link kixlab" href="https://www.kixlab.org/" target="_blank" rel="noreferrer">KIXLAB</a>. */}
                         {/* <h6>Information management. HCI research at the <a className="creativity" href="https://creativity.ucsd.edu/" target="_blank" rel="noreferrer">Creativity Lab</a>.</h6> */}
