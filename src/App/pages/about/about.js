@@ -97,8 +97,8 @@ function About() {
               </div>
             </p>
             {/* <br/> */}
-            <a href="https://twitter.com/bryandmin/" target="_blank" rel="noreferrer">Twitter <NewTabIcon/></a>
             <a href="https://scholar.google.com/citations?user=12yN6_gAAAAJ&hl=en/" target="_blank" rel="noreferrer">Google Scholar <NewTabIcon/></a>
+            <a href="https://twitter.com/bryandmin/" target="_blank" rel="noreferrer">Twitter <NewTabIcon/></a>
             <a href="https://github.com/bdhmin/" target="_blank" rel="noreferrer">GitHub <NewTabIcon/></a>
             <a href="https://www.linkedin.com/in/bryanmin/" target="_blank" rel="noreferrer">LinkedIn <NewTabIcon/></a>
           </div>
