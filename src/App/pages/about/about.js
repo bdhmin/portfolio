@@ -38,7 +38,7 @@ function About() {
               I explore ways to enable users to <strong>customize software interfaces</strong> for easier information layout and management.
             </p>
             <p>
-              I am an Assistant Researcher at the <Tag name="creativity">Creativity Lab</Tag>, currently working on <Tag name="masonview">Masonview</Tag>, which lets users flexibly manipulate the representation of content on their desktop.
+              I am an Assistant Researcher at the <Tag name="creativity">Creativity Lab</Tag>, working on projects on web manipulation, LLM-interaction, and flexible representations of information.
             </p>
             <p>
               I recently graduated from <Tag name="ucsd">UC San Diego</Tag> with a B.S. in Computer Science.

@@ -2,10 +2,10 @@ import { projects } from '../../../assets/projects'
 
 export const publications = [
   {
-    title: 'Structured Generation and Exploration of Design Space with Large Language Models for Human-AI Co-Creation',
-    subtitle: '',
+    title: 'Luminate',
+    subtitle: 'Structured Generation and Exploration of Design Space with Large Language Models for Human-AI Co-Creation',
     authors: ['Sangho Suh', 'Meng Chen', 'Bryan Min', 'Toby Jia-Jun Li', 'Haijun Xia'],
-    venue: 'arXiv (October 2023)',
+    venue: 'CHI 2024',
     resources: [
       {
         type: 'DOI',
