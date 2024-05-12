@@ -34,14 +34,14 @@ function About() {
           </div> */}
 
           <div className="Bio">
+            {/* <p>
+              I am interested
+            </p> */}
             <p>
-              I explore ways to enable users to <strong>customize software interfaces</strong> for easier information layout and management.
+              I am a first-year PhD student at <a className="ucsd" href="https://ucsd.edu" target="_blank" rel="noreferrer">UC San Diego</a>, advised by Haijun Xia.
             </p>
             <p>
-              I am an Assistant Researcher at the <Tag name="creativity">Creativity Lab</Tag>, working on projects on web manipulation, LLM-interaction, and flexible representations of information.
-            </p>
-            <p>
-              I recently graduated from <Tag name="ucsd">UC San Diego</Tag> with a B.S. in Computer Science.
+            I explore interaction mechanisms to make generative user interfaces more customizable. I explore this by building intelligent tools for Web customization and spatial canvases for LLM-generated text spaces.
             </p>
             <p>
               If you'd like to chat please feel free to email me!
