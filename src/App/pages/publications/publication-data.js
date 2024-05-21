@@ -35,25 +35,25 @@ export const publications = [
     award: '',
     note: ''
   },
-  {
-    title: 'ChoiceMates',
-    subtitle: 'Supporting Unfamiliar Online Decision-Making with Multi-Agent Conversational Interactions',
-    authors: ['Jeongeon Park', 'Bryan Min', 'Xiaojuan Ma', 'Juho Kim'],
-    venue: 'arXiv (October 2023)',
-    resources: [
-      {
-        type: 'DOI',
-        link: 'https://doi.org/10.48550/arXiv.2310.01331',
-      },
-      {
-        type: 'Paper',
-        link: `${process.env.PUBLIC_URL}/papers/arxiv-choicemates.pdf`,
-      },
-    ],
-    thumbnail: projects.ChoiceMates,
-    award: '',
-    note: ''
-  },
+  // {
+  //   title: 'ChoiceMates',
+  //   subtitle: 'Supporting Unfamiliar Online Decision-Making with Multi-Agent Conversational Interactions',
+  //   authors: ['Jeongeon Park', 'Bryan Min', 'Xiaojuan Ma', 'Juho Kim'],
+  //   venue: 'arXiv (October 2023)',
+  //   resources: [
+  //     {
+  //       type: 'DOI',
+  //       link: 'https://doi.org/10.48550/arXiv.2310.01331',
+  //     },
+  //     {
+  //       type: 'Paper',
+  //       link: `${process.env.PUBLIC_URL}/papers/arxiv-choicemates.pdf`,
+  //     },
+  //   ],
+  //   thumbnail: projects.ChoiceMates,
+  //   award: '',
+  //   note: ''
+  // },
   {
     title: 'Demonstration of Masonview',
     subtitle: 'Content-Driven Viewport Management',
