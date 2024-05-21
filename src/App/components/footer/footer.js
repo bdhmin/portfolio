@@ -5,7 +5,7 @@ function Footer() {
     <div className="Footer">
       <span className="cp">
         <div>Made by Bryan Min</div>
-        <div>Last Updated:  May 12, 2024</div>
+        <div>Last Updated:  May 21, 2024</div>
       </span>
     </div>
   )
