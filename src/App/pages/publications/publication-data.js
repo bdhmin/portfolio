@@ -9,14 +9,29 @@ export const publications = [
     resources: [
       {
         type: 'DOI',
-        link: 'https://doi.org/10.48550/arXiv.2310.12953',
+        link: 'https://dl.acm.org/doi/10.1145/3613904.3642400',
       },
       {
         type: 'Paper',
-        link: `${process.env.PUBLIC_URL}/papers/luminate-arxiv.pdf`,
+        link: `${process.env.PUBLIC_URL}/papers/chi24-luminate.pdf`,
       },
     ],
     thumbnail: projects.Luminate,
+    award: '',
+    note: ''
+  },
+  {
+    title: '',
+    subtitle: 'How do multiple LLM-powered conversational agents assist sensemaking and decision-making in an unfamiliar domain?',
+    authors: ['Jeongeon Park', 'Bryan Min', 'Xiaojuan Ma', 'Juho Kim'],
+    venue: 'CHI 2024 Sensemaking Workshop',
+    resources: [
+      {
+        type: 'Paper',
+        link: `${process.env.PUBLIC_URL}/papers/chi24-sensemaking.pdf`,
+      },
+    ],
+    thumbnail: projects.ChoiceMates,
     award: '',
     note: ''
   },
@@ -32,7 +47,7 @@ export const publications = [
       },
       {
         type: 'Paper',
-        link: `${process.env.PUBLIC_URL}/papers/choicemates-arxiv.pdf`,
+        link: `${process.env.PUBLIC_URL}/papers/arxiv-choicemates.pdf`,
       },
     ],
     thumbnail: projects.ChoiceMates,
@@ -51,7 +66,7 @@ export const publications = [
       },
       {
         type: 'Paper',
-        link: `${process.env.PUBLIC_URL}/papers/masonview-demo-uist23.pdf`,
+        link: `${process.env.PUBLIC_URL}/papers/uist23-demo-masonview.pdf`,
       },
       {
         type: 'Video',
@@ -82,7 +97,7 @@ export const publications = [
       },
       {
         type: 'Paper',
-        link: `${process.env.PUBLIC_URL}/papers/sensecape.pdf`,
+        link: `${process.env.PUBLIC_URL}/papers/uist23-sensecape.pdf`,
       },
       {
         type: 'Video',
