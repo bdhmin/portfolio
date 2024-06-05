@@ -23,7 +23,7 @@ export const publications = [
   {
     title: '',
     subtitle: 'How do multiple LLM-powered conversational agents assist sensemaking and decision-making in an unfamiliar domain?',
-    authors: ['Jeongeon Park', 'Bryan Min', 'Xiaojuan Ma', 'Juho Kim'],
+    authors: ['Jeongeon Park', 'Bryan Min', 'Jean Y. Song', 'Xiaojuan Ma', 'Juho Kim'],
     venue: 'CHI 2024 Sensemaking Workshop',
     resources: [
       {
