@@ -38,13 +38,16 @@ function About() {
               I am interested
             </p> */}
             <p>
-              I am a first-year PhD student at <Tag name="ucsd">UC San Diego</Tag>, advised by Haijun Xia.
+              I'm first-year PhD student at <Tag name="ucsd">UC San Diego</Tag>, advised by Haijun Xia.
             </p>
             <p>
-              I explore interaction mechanisms to make generative user interfaces more customizable. I explore this by building intelligent tools for Web customization and spatial canvases for LLM-generated text spaces.
+              My goal is to give end-users more control over their interface. End-users should be able to <b>easily</b>, <b>expressively</b>, and <b>broadly</b> customize their interface, without complex code and without searching for settings in a large system settings page.
             </p>
             <p>
-              If you'd like to chat please feel free to email me!
+              I'm looking into interaction techniques—through foundational design patterns and generative AI—that gives end-users this control to customize their interface.
+            </p>
+            <p>
+              If you'd like to chat, please feel free to email me!
             </p>
               {/* I explore ways to improve user productivity within information workflows. */}
             {/* <p>

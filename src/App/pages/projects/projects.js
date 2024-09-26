@@ -18,7 +18,7 @@ function Projects() {
         /> */}
 
         <ProjectItem
-          title={'Marathon.'}
+          title={'Marathon'}
           description={'A social goal-tracking app. Keep yourself and others accountable and achieve your dream goals with your self-created community supporting your entire journey.'}
           award={'big'}
           type={'SD Hacks 2022 Winner'}
